@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Matchday Calls</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --pitch: #0F3D2E;
+    --pitch-dark: #08211A;
+    --chalk: #F5F3EC;
+    --chalk-dim: #B9C9BF;
+    --floodlight: #E8C34A;
+    --home-zone: #4C9A6A;
+    --away-zone: #D96C4C;
+    --draw-zone: #C9BE8C;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--pitch-dark);
+    background-image:
+      repeating-linear-gradient(0deg, rgba(255,255,255,0.02) 0px, rgba(255,255,255,0.02) 1px, transparent 1px, transparent 80px);
+    color: var(--chalk);
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    padding-bottom: 48px;
+  }
+
+  header {
+    padding: 28px 20px 20px;
+    border-bottom: 2px dashed rgba(245,243,236,0.25);
+    text-align: center;
+  }
+
+  header h1 {
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 34px;
+    margin: 0 0 4px;
+    color: var(--floodlight);
+    text-transform: uppercase;
+  }
+
+  header p {
+    margin: 0;
+    color: var(--chalk-dim);
+    font-size: 13px;
+  }
+
+  main {
+    max-width: 620px;
+    margin: 0 auto;
+    padding: 0 14px;
+  }
+
+  .competition-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 32px 6px 14px;
+  }
+
+  .competition-header .line {
+    flex: 1;
+    height: 1px;
+    background: rgba(245,243,236,0.2);
+  }
+
+  .competition-header h2 {
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--chalk);
+    margin: 0;
+    white-space: nowrap;
+  }
+
+  .match-card {
+    background: rgba(245,243,236,0.04);
+    border: 1px solid rgba(245,243,236,0.1);
+    border-radius: 10px;
+    padding: 16px 16px 14px;
+    margin-bottom: 12px;
+  }
+
+  .match-date {
+    font-size: 11px;
+    color: var(--chalk-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+  }
+
+  .teams {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 14px;
+  }
+
+  .team {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .team.away { justify-content: flex-end; text-align: right; }
+
+  .team img {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+    flex-shrink: 0;
+  }
+
+  .vs {
+    font-family: 'Anton', sans-serif;
+    color: var(--floodlight);
+    font-size: 13px;
+    padding: 0 6px;
+  }
+
+  .pitch-bar {
+    display: flex;
+    height: 22px;
+    border-radius: 4px;
+    overflow: hidden;
+    border: 1px solid rgba(0,0,0,0.3);
+  }
+
+  .pitch-bar .zone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: 700;
+    color: rgba(8,33,26,0.85);
+  }
+
+  .zone.home { background: var(--home-zone); }
+  .zone.draw { background: var(--draw-zone); }
+  .zone.away { background: var(--away-zone); }
+
+  .call-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 10px;
+  }
+
+  .call {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--floodlight);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .confidence {
+    font-size: 12px;
+    color: var(--chalk-dim);
+  }
+
+  .empty, .loading {
+    text-align: center;
+    color: var(--chalk-dim);
+    padding: 60px 20px;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  footer {
+    text-align: center;
+    color: var(--chalk-dim);
+    font-size: 11px;
+    margin-top: 40px;
+    padding: 0 20px;
+    line-height: 1.6;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Matchday Calls</h1>
+  <p id="updated-line">Loading predictions&hellip;</p>
+</header>
+
+<main id="content">
+  <div class="loading">Fetching the latest calls&hellip;</div>
+</main>
+
+<footer>
+  Predictions are a personal hobby project based on recent form and home advantage.<br>
+  Not betting advice &mdash; just a bit of fun.
+</footer>
+
+<script>
+async function loadData() {
+  const content = document.getElementById('content');
+  const updatedLine = document.getElementById('updated-line');
+
+  try {
+    const res = await fetch('data.json?_=' + Date.now());
+    if (!res.ok) throw new Error('No data yet');
+    const data = await res.json();
+
+    if (!data.predictions || data.predictions.length === 0) {
+      content.innerHTML = '<div class="empty">No upcoming fixtures found in the next 7 days. Check back soon.</div>';
+      updatedLine.textContent = 'Waiting for the first update';
+      return;
+    }
+
+    const generated = new Date(data.generated_at);
+    updatedLine.textContent = 'Updated ' + generated.toLocaleString(undefined, {
+      month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit'
+    });
+
+    const groups = {};
+    data.predictions.forEach(m => {
+      if (!groups[m.competition]) groups[m.competition] = [];
+      groups[m.competition].push(m);
+    });
+
+    let html = '';
+    for (const [competition, matches] of Object.entries(groups)) {
+      html += `<div class="competition-header"><h2>${competition}</h2><div class="line"></div></div>`;
+      matches.forEach(m => {
+        const date = new Date(m.date);
+        const dateStr = date.toLocaleString(undefined, {
+          weekday: 'short', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit'
+        });
+        html += `
+          <div class="match-card">
+            <div class="match-date">${dateStr}</div>
+            <div class="teams">
+              <div class="team home">
+                ${m.home_crest ? `<img src="${m.home_crest}" alt="">` : ''}
+                <span>${m.home_team}</span>
+              </div>
+              <span class="vs">VS</span>
+              <div class="team away">
+                <span>${m.away_team}</span>
+                ${m.away_crest ? `<img src="${m.away_crest}" alt="">` : ''}
+              </div>
+            </div>
+            <div class="pitch-bar">
+              <div class="zone home" style="width:${m.home_pct}%">${m.home_pct >= 12 ? m.home_pct + '%' : ''}</div>
+              <div class="zone draw" style="width:${m.draw_pct}%">${m.draw_pct >= 12 ? m.draw_pct + '%' : ''}</div>
+              <div class="zone away" style="width:${m.away_pct}%">${m.away_pct >= 12 ? m.away_pct + '%' : ''}</div>
+            </div>
+            <div class="call-row">
+              <span class="call">Call: ${m.predicted}</span>
+              <span class="confidence">${m.confidence}% confidence</span>
+            </div>
+          </div>
+        `;
+      });
+    }
+
+    content.innerHTML = html;
+  } catch (err) {
+    content.innerHTML = '<div class="empty">No predictions yet. Once the daily update runs, matches will appear here automatically.</div>';
+    updatedLine.textContent = 'Not updated yet';
+  }
+}
+
+loadData();
+</script>
+
+</body>
+</html>
