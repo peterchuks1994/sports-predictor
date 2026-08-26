@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>{% if page.title %}{{ page.title }} — Matchday Calls{% else %}Matchday Calls{% endif %}</title>
+<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<meta name="robots" content="index, follow">
+<link rel="icon" href="{{ site.baseurl }}/assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/base.css">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/prose.css">
+</head>
+<body>
+
+<nav>
+  <a href="{{ site.baseurl }}/index.html">Home</a>
+  <a href="{{ site.baseurl }}/blog.html" class="active">Blog</a>
+  <a href="{{ site.baseurl }}/about.html">About</a>
+  <a href="{{ site.baseurl }}/terms.html">Terms</a>
+  <a href="{{ site.baseurl }}/privacy.html">Privacy</a>
+</nav>
+
+<header>
+  <h1 class="prose-title">{{ page.title | default: site.title }}</h1>
+</header>
+
+<main>
+  {{ content }}
+</main>
+
+<footer>
+  &copy; 2026 Matchday Calls. Personal project, not affiliated with any betting operator.<br>
+  <a href="{{ site.baseurl }}/about.html">About</a> &middot; <a href="{{ site.baseurl }}/terms.html">Terms &amp; Disclaimer</a> &middot; <a href="{{ site.baseurl }}/privacy.html">Privacy</a>
+</footer>
+
+</body>
+</html>
