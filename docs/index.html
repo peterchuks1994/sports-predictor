@@ -3,221 +3,27 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Matchday Calls</title>
+<title>Matchday Calls — Free Football Match Predictions</title>
+<meta name="description" content="Free daily football predictions for the Premier League, La Liga, Serie A, Bundesliga, Ligue 1, and more — with ELO ratings, live standings, and a public accuracy track record.">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Matchday Calls — Free Football Match Predictions">
+<meta property="og:description" content="Daily football predictions across major European leagues, with a public accuracy track record.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<style>
-  :root {
-    --pitch-dark: #08211A;
-    --chalk: #F5F3EC;
-    --chalk-dim: #B9C9BF;
-    --floodlight: #E8C34A;
-    --market-bg: rgba(245,243,236,0.04);
-    --best-border: #E8C34A;
-  }
-
-  * { box-sizing: border-box; }
-
-  body {
-    margin: 0;
-    background: var(--pitch-dark);
-    background-image:
-      repeating-linear-gradient(0deg, rgba(255,255,255,0.02) 0px, rgba(255,255,255,0.02) 1px, transparent 1px, transparent 80px);
-    color: var(--chalk);
-    font-family: 'Inter', sans-serif;
-    min-height: 100vh;
-    padding-bottom: 48px;
-  }
-
-  header {
-    padding: 28px 20px 20px;
-    border-bottom: 2px dashed rgba(245,243,236,0.25);
-    text-align: center;
-  }
-
-  header h1 {
-    font-family: 'Anton', sans-serif;
-    font-weight: 400;
-    letter-spacing: 1px;
-    font-size: 34px;
-    margin: 0 0 4px;
-    color: var(--floodlight);
-    text-transform: uppercase;
-  }
-
-  header p {
-    margin: 0;
-    color: var(--chalk-dim);
-    font-size: 13px;
-  }
-
-  main {
-    max-width: 620px;
-    margin: 0 auto;
-    padding: 0 14px;
-  }
-
-  .competition-header {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin: 32px 6px 14px;
-  }
-
-  .competition-header .line {
-    flex: 1;
-    height: 1px;
-    background: rgba(245,243,236,0.2);
-  }
-
-  .competition-header h2 {
-    font-family: 'Anton', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    color: var(--chalk);
-    margin: 0;
-    white-space: nowrap;
-  }
-
-  .match-card {
-    background: rgba(245,243,236,0.03);
-    border: 1px solid rgba(245,243,236,0.1);
-    border-radius: 10px;
-    padding: 16px 16px 14px;
-    margin-bottom: 12px;
-  }
-
-  .match-date {
-    font-size: 11px;
-    color: var(--chalk-dim);
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    margin-bottom: 10px;
-  }
-
-  .teams {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 8px;
-    margin-bottom: 16px;
-  }
-
-  .team {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 15px;
-    font-weight: 600;
-  }
-
-  .team.away { justify-content: flex-end; text-align: right; }
-
-  .team img {
-    width: 22px;
-    height: 22px;
-    object-fit: contain;
-    flex-shrink: 0;
-  }
-
-  .vs {
-    font-family: 'Anton', sans-serif;
-    color: var(--floodlight);
-    font-size: 13px;
-    padding: 0 6px;
-  }
-
-  .markets {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-  }
-
-  .market-row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
-    padding: 9px 11px;
-    border-radius: 7px;
-    background: var(--market-bg);
-    border: 1px solid transparent;
-  }
-
-  .market-row.best {
-    border-color: var(--best-border);
-    background: rgba(232,195,74,0.08);
-  }
-
-  .market-label {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-  }
-
-  .market-name {
-    font-size: 10px;
-    text-transform: uppercase;
-    letter-spacing: 0.6px;
-    color: var(--chalk-dim);
-  }
-
-  .market-pick {
-    font-size: 13px;
-    font-weight: 700;
-    color: var(--chalk);
-  }
-
-  .market-row.best .market-pick {
-    color: var(--floodlight);
-  }
-
-  .market-confidence {
-    font-size: 13px;
-    font-weight: 700;
-    color: var(--chalk-dim);
-    white-space: nowrap;
-  }
-
-  .market-row.best .market-confidence {
-    color: var(--floodlight);
-  }
-
-  .best-badge {
-    display: inline-block;
-    font-size: 9px;
-    font-weight: 700;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    background: var(--floodlight);
-    color: var(--pitch-dark);
-    padding: 2px 6px;
-    border-radius: 4px;
-    margin-left: 6px;
-  }
-
-  .empty, .loading {
-    text-align: center;
-    color: var(--chalk-dim);
-    padding: 60px 20px;
-    font-size: 14px;
-    line-height: 1.6;
-  }
-
-  footer {
-    text-align: center;
-    color: var(--chalk-dim);
-    font-size: 11px;
-    margin-top: 40px;
-    padding: 0 20px;
-    line-height: 1.6;
-  }
-</style>
+<link rel="stylesheet" href="assets/base.css">
+<link rel="stylesheet" href="assets/home.css">
 </head>
 <body>
+
+<nav>
+  <a href="index.html" class="active">Home</a>
+  <a href="blog.html">Blog</a>
+  <a href="about.html">About</a>
+  <a href="terms.html">Terms</a>
+  <a href="privacy.html">Privacy</a>
+</nav>
 
 <header>
   <h1>Matchday Calls</h1>
@@ -229,8 +35,9 @@
 </main>
 
 <footer>
-  Predictions are a personal hobby project based on recent form, goals, and a Poisson goal model.<br>
-  Not betting advice &mdash; just a bit of fun. Football is genuinely hard to predict.
+  Predictions blend recent form, ELO ratings, live standings, and head-to-head history.<br>
+  Not betting advice &mdash; just a bit of fun. Football is genuinely hard to predict.<br>
+  <a href="blog.html" style="color: var(--chalk-dim);">Blog</a> &middot; <a href="about.html" style="color: var(--chalk-dim);">About</a> &middot; <a href="terms.html" style="color: var(--chalk-dim);">Terms</a> &middot; <a href="privacy.html" style="color: var(--chalk-dim);">Privacy</a>
 </footer>
 
 <script>
@@ -239,6 +46,69 @@ const MARKET_NAMES = {
   over_under: 'Over/Under 2.5',
   btts: 'Both Teams to Score'
 };
+
+function renderAccuracy(accuracy) {
+  if (!accuracy) return '';
+
+  const tiles = ['double_chance', 'over_under', 'btts'].map(key => {
+    const stat = accuracy[key];
+    const rateHtml = stat && stat.rate !== null
+      ? `<div class="accuracy-rate">${stat.rate}%</div>`
+      : `<div class="accuracy-rate no-data">Building<br>track record</div>`;
+    const countText = stat && stat.total > 0 ? `${stat.correct}/${stat.total} picks` : '';
+    return `
+      <div class="accuracy-tile">
+        ${rateHtml}
+        <div class="accuracy-label">${MARKET_NAMES[key]}</div>
+        <div class="accuracy-count">${countText}</div>
+      </div>
+    `;
+  }).join('');
+
+  let recentHtml = '';
+  if (accuracy.recent && accuracy.recent.length > 0) {
+    recentHtml = `
+      <div class="recent-picks">
+        ${accuracy.recent.slice(0, 5).map(r => `
+          <div class="recent-pick-row">
+            <span class="recent-pick-dot ${r.correct ? 'win' : 'loss'}"></span>
+            <span class="recent-pick-text"><strong>${r.match}</strong> &mdash; ${r.pick}</span>
+          </div>
+        `).join('')}
+      </div>
+    `;
+  }
+
+  return `
+    <div class="section-header"><h2>Track Record</h2><div class="line"></div></div>
+    <div class="accuracy-grid">${tiles}</div>
+    ${recentHtml}
+  `;
+}
+
+function renderBestBets(bestBets) {
+  if (!bestBets || bestBets.length === 0) return '';
+
+  const cards = bestBets.map(b => {
+    const date = new Date(b.date);
+    const dateStr = date.toLocaleDateString(undefined, { weekday: 'short', month: 'short', day: 'numeric' });
+    return `
+      <div class="best-bet-card">
+        <div class="best-bet-comp">${b.competition} &middot; ${dateStr}</div>
+        <div class="best-bet-match">${b.home_team} vs ${b.away_team}</div>
+        <div class="best-bet-row">
+          <span class="best-bet-pick">${b.market_name}: ${b.pick}</span>
+          <span class="best-bet-conf">${b.confidence}%</span>
+        </div>
+      </div>
+    `;
+  }).join('');
+
+  return `
+    <div class="section-header"><h2>Best Bets Today</h2><div class="line"></div></div>
+    ${cards}
+  `;
+}
 
 async function loadData() {
   const content = document.getElementById('content');
@@ -260,15 +130,16 @@ async function loadData() {
       month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit'
     });
 
+    let html = renderBestBets(data.best_bets) + renderAccuracy(data.accuracy);
+
     const groups = {};
     data.predictions.forEach(m => {
       if (!groups[m.competition]) groups[m.competition] = [];
       groups[m.competition].push(m);
     });
 
-    let html = '';
     for (const [competition, matches] of Object.entries(groups)) {
-      html += `<div class="competition-header"><h2>${competition}</h2><div class="line"></div></div>`;
+      html += `<div class="section-header"><h2>${competition}</h2><div class="line"></div></div>`;
       matches.forEach(m => {
         const date = new Date(m.date);
         const dateStr = date.toLocaleString(undefined, {
@@ -302,6 +173,7 @@ async function loadData() {
                 ${m.away_crest ? `<img src="${m.away_crest}" alt="">` : ''}
               </div>
             </div>
+            ${m.h2h_note ? `<div class="h2h-note">${m.home_team} vs ${m.away_team}: ${m.h2h_note}</div>` : ''}
             <div class="markets">
               ${marketRows}
             </div>
