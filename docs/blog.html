@@ -1,0 +1,16 @@
+---
+layout: default
+title: Blog
+---
+
+{% if site.posts.size == 0 %}
+  <p>No posts yet — check back soon.</p>
+{% else %}
+  {% for post in site.posts %}
+    <div class="post-list-item">
+      <div class="post-list-date">{{ post.date | date: "%B %-d, %Y" }}</div>
+      <div class="post-list-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
+      <div class="post-list-excerpt">{{ post.excerpt | strip_html | truncate: 160 }}</div>
+    </div>
+  {% endfor %}
+{% endif %}
