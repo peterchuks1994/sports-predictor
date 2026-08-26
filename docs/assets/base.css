@@ -1,0 +1,81 @@
+/* ==========================================================================
+   Matchday Calls — Base Stylesheet
+   Shared across every page: home, about, terms, privacy, and the blog.
+   ========================================================================== */
+
+:root {
+  --pitch-dark: #08211A;
+  --chalk: #F5F3EC;
+  --chalk-dim: #B9C9BF;
+  --floodlight: #E8C34A;
+  --market-bg: rgba(245,243,236,0.04);
+  --best-border: #E8C34A;
+  --win: #4C9A6A;
+  --loss: #D96C4C;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--pitch-dark);
+  background-image:
+    repeating-linear-gradient(0deg, rgba(255,255,255,0.02) 0px, rgba(255,255,255,0.02) 1px, transparent 1px, transparent 80px);
+  color: var(--chalk);
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+  padding-bottom: 48px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  padding: 16px 12px;
+  border-bottom: 1px solid rgba(245,243,236,0.15);
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: var(--chalk-dim);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+nav a.active { color: var(--floodlight); }
+
+header {
+  padding: 28px 20px 20px;
+  border-bottom: 2px dashed rgba(245,243,236,0.25);
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 34px;
+  margin: 0 0 4px;
+  color: var(--floodlight);
+  text-transform: uppercase;
+}
+
+header p {
+  margin: 0;
+  color: var(--chalk-dim);
+  font-size: 13px;
+}
+
+footer {
+  text-align: center;
+  color: var(--chalk-dim);
+  font-size: 11px;
+  margin-top: 40px;
+  padding: 0 20px;
+  line-height: 1.6;
+}
+
+footer a { color: var(--chalk-dim); }
