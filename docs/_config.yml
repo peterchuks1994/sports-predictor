@@ -1,0 +1,16 @@
+title: "Matchday Calls"
+description: "Free daily football predictions using ELO ratings, live standings, and a Poisson goal model."
+url: "https://peterchuks1994.github.io"
+baseurl: "/sports-predictor"
+
+permalink: /blog/:title/
+
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+
+# Files/folders Jekyll should leave completely alone (our existing hand-built
+# pages and the daily-generated prediction data are not Jekyll pages).
+exclude:
+  - README.md
