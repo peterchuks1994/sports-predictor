@@ -1,0 +1,93 @@
+/* ==========================================================================
+   Matchday Calls — Prose Stylesheet
+   Used on content pages: About, Terms, Privacy, and blog posts.
+   ========================================================================== */
+
+header h1.prose-title {
+  font-size: 26px;
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px 20px 20px;
+  line-height: 1.7;
+  font-size: 15px;
+}
+
+main h2 {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--floodlight);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 32px;
+}
+
+main p { color: var(--chalk); opacity: 0.92; }
+
+main a { color: var(--floodlight); }
+
+main img { max-width: 100%; border-radius: 8px; }
+
+main blockquote {
+  border-left: 3px solid var(--floodlight);
+  margin: 20px 0;
+  padding: 4px 0 4px 16px;
+  color: var(--chalk-dim);
+  font-style: italic;
+}
+
+main code {
+  background: var(--market-bg);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.notice-box {
+  border: 1px solid rgba(232,195,74,0.4);
+  background: rgba(232,195,74,0.08);
+  border-radius: 10px;
+  padding: 16px;
+  margin: 20px 0;
+}
+
+/* Blog listing */
+.post-list-item {
+  border-bottom: 1px solid rgba(245,243,236,0.1);
+  padding: 16px 0;
+}
+
+.post-list-date {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--chalk-dim);
+}
+
+.post-list-title {
+  font-size: 17px;
+  font-weight: 700;
+  margin: 4px 0 6px;
+}
+
+.post-list-title a {
+  color: var(--chalk);
+  text-decoration: none;
+}
+
+.post-list-excerpt {
+  font-size: 14px;
+  color: var(--chalk-dim);
+  line-height: 1.6;
+}
+
+.post-meta {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--chalk-dim);
+  margin-bottom: 20px;
+}
