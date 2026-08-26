@@ -1,0 +1,276 @@
+/* ==========================================================================
+   Matchday Calls — Home Page Stylesheet
+   Best bets, accuracy dashboard, and match card styling. Loaded alongside
+   base.css on index.html only.
+   ========================================================================== */
+
+main {
+  max-width: 620px;
+  margin: 0 auto;
+  padding: 0 14px;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 32px 6px 14px;
+}
+
+.section-header .line {
+  flex: 1;
+  height: 1px;
+  background: rgba(245,243,236,0.2);
+}
+
+.section-header h2 {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--chalk);
+  margin: 0;
+  white-space: nowrap;
+}
+
+/* Best bets */
+.best-bet-card {
+  background: linear-gradient(135deg, rgba(232,195,74,0.12), rgba(232,195,74,0.03));
+  border: 1px solid rgba(232,195,74,0.4);
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin-bottom: 10px;
+}
+
+.best-bet-comp {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: var(--floodlight);
+  margin-bottom: 4px;
+}
+
+.best-bet-match {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.best-bet-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.best-bet-pick {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--floodlight);
+}
+
+.best-bet-conf {
+  font-size: 13px;
+  color: var(--chalk-dim);
+}
+
+/* Accuracy dashboard */
+.accuracy-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.accuracy-tile {
+  background: var(--market-bg);
+  border: 1px solid rgba(245,243,236,0.1);
+  border-radius: 8px;
+  padding: 12px 8px;
+  text-align: center;
+}
+
+.accuracy-rate {
+  font-family: 'Anton', sans-serif;
+  font-size: 22px;
+  color: var(--floodlight);
+}
+
+.accuracy-rate.no-data {
+  color: var(--chalk-dim);
+  font-size: 13px;
+  font-family: 'Inter', sans-serif;
+}
+
+.accuracy-label {
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: var(--chalk-dim);
+  margin-top: 2px;
+}
+
+.accuracy-count {
+  font-size: 9px;
+  color: var(--chalk-dim);
+  opacity: 0.7;
+}
+
+.recent-picks {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.recent-pick-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  padding: 6px 10px;
+  background: var(--market-bg);
+  border-radius: 6px;
+}
+
+.recent-pick-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.recent-pick-dot.win { background: var(--win); }
+.recent-pick-dot.loss { background: var(--loss); }
+
+.recent-pick-text { color: var(--chalk-dim); flex: 1; }
+.recent-pick-text strong { color: var(--chalk); font-weight: 600; }
+
+/* Match cards */
+.match-card {
+  background: rgba(245,243,236,0.03);
+  border: 1px solid rgba(245,243,236,0.1);
+  border-radius: 10px;
+  padding: 16px 16px 14px;
+  margin-bottom: 12px;
+}
+
+.match-date {
+  font-size: 11px;
+  color: var(--chalk-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+
+.teams {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.team {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.team.away { justify-content: flex-end; text-align: right; }
+
+.team img {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.vs {
+  font-family: 'Anton', sans-serif;
+  color: var(--floodlight);
+  font-size: 13px;
+  padding: 0 6px;
+}
+
+.h2h-note {
+  font-size: 11px;
+  color: var(--chalk-dim);
+  font-style: italic;
+  margin-bottom: 12px;
+}
+
+.markets {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.market-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 9px 11px;
+  border-radius: 7px;
+  background: var(--market-bg);
+  border: 1px solid transparent;
+}
+
+.market-row.best {
+  border-color: var(--best-border);
+  background: rgba(232,195,74,0.08);
+}
+
+.market-label {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.market-name {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: var(--chalk-dim);
+}
+
+.market-pick {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--chalk);
+}
+
+.market-row.best .market-pick { color: var(--floodlight); }
+
+.market-confidence {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--chalk-dim);
+  white-space: nowrap;
+}
+
+.market-row.best .market-confidence { color: var(--floodlight); }
+
+.best-badge {
+  display: inline-block;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  background: var(--floodlight);
+  color: var(--pitch-dark);
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-left: 6px;
+}
+
+.empty, .loading {
+  text-align: center;
+  color: var(--chalk-dim);
+  padding: 60px 20px;
+  font-size: 14px;
+  line-height: 1.6;
+  }
