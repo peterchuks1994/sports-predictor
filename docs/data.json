@@ -1,38 +1,6 @@
 {
-  "generated_at": "2026-08-26T08:32:17.169680Z",
+  "generated_at": "2026-08-27T17:40:48.757110Z",
   "predictions": [
-    {
-      "competition": "La Liga",
-      "date": "2026-08-26T19:00:00Z",
-      "home_team": "Real Madrid CF",
-      "away_team": "Real Sociedad de F\u00fatbol",
-      "home_crest": "https://crests.football-data.org/86.png",
-      "away_crest": "https://crests.football-data.org/92.png",
-      "result_probs": {
-        "home_pct": 69.7,
-        "draw_pct": 18.0,
-        "away_pct": 12.3
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Real Madrid CF or Draw",
-          "confidence": 87.7,
-          "edge": 15.7
-        },
-        "over_under": {
-          "pick": "Under 2.5 Goals",
-          "confidence": 58.1,
-          "expected_goals": 2.36,
-          "edge": 8.1
-        },
-        "btts": {
-          "pick": "Both Teams to Score: No",
-          "confidence": 57.7,
-          "edge": 7.7
-        }
-      },
-      "best_market": "double_chance"
-    },
     {
       "competition": "La Liga",
       "date": "2026-08-27T18:30:00Z",
@@ -832,6 +800,38 @@
         }
       },
       "best_market": "double_chance"
+    },
+    {
+      "competition": "La Liga",
+      "date": "2026-08-29T15:00:00Z",
+      "home_team": "Levante UD",
+      "away_team": "Real Betis Balompi\u00e9",
+      "home_crest": "https://crests.football-data.org/88.png",
+      "away_crest": "https://crests.football-data.org/90.png",
+      "result_probs": {
+        "home_pct": 25.7,
+        "draw_pct": 18.0,
+        "away_pct": 56.3
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Draw or Real Betis Balompi\u00e9",
+          "confidence": 74.3,
+          "edge": 19.3
+        },
+        "over_under": {
+          "pick": "Under 2.5 Goals",
+          "confidence": 75.0,
+          "expected_goals": 1.73,
+          "edge": 25.0
+        },
+        "btts": {
+          "pick": "Both Teams to Score: No",
+          "confidence": 74.0,
+          "edge": 24.0
+        }
+      },
+      "best_market": "over_under"
     },
     {
       "competition": "Ligue 1",
