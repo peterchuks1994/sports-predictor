@@ -1,1062 +1,6 @@
 {
-  "generated_at": "2026-08-29T12:42:43.557663Z",
+  "generated_at": "2026-08-30T11:48:19.488618Z",
   "predictions": [
-    {
-      "competition": "Bundesliga",
-      "date": "2026-08-29T13:30:00Z",
-      "home_team": "RB Leipzig",
-      "away_team": "Borussia M\u00f6nchengladbach",
-      "home_crest": "https://crests.football-data.org/721.png",
-      "away_crest": "https://crests.football-data.org/18.png",
-      "result_probs": {
-        "home_pct": 47.1,
-        "draw_pct": 18.0,
-        "away_pct": 34.9
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Either Team to Win",
-          "confidence": 82.0,
-          "edge": 9.0
-        },
-        "over_under": {
-          "pick": "Over 2.5 Goals",
-          "confidence": 53.9,
-          "expected_goals": 2.84,
-          "edge": 3.9
-        },
-        "btts": {
-          "pick": "Both Teams to Score: Yes",
-          "confidence": 57.3,
-          "edge": 7.3
-        }
-      },
-      "best_market": "double_chance"
-    },
-    {
-      "competition": "Bundesliga",
-      "date": "2026-08-29T13:30:00Z",
-      "home_team": "1. FSV Mainz 05",
-      "away_team": "SC Paderborn 07",
-      "home_crest": "https://crests.football-data.org/15.png",
-      "away_crest": "https://crests.football-data.org/29.png",
-      "result_probs": {
-        "home_pct": 47.1,
-        "draw_pct": 18.0,
-        "away_pct": 34.9
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Either Team to Win",
-          "confidence": 82.0,
-          "edge": 9.0
-        },
-        "over_under": {
-          "pick": "Over 2.5 Goals",
-          "confidence": 53.9,
-          "expected_goals": 2.84,
-          "edge": 3.9
-        },
-        "btts": {
-          "pick": "Both Teams to Score: Yes",
-          "confidence": 57.3,
-          "edge": 7.3
-        }
-      },
-      "best_market": "double_chance"
-    },
-    {
-      "competition": "Bundesliga",
-      "date": "2026-08-29T13:30:00Z",
-      "home_team": "1. FC Union Berlin",
-      "away_team": "Eintracht Frankfurt",
-      "home_crest": "https://crests.football-data.org/28.png",
-      "away_crest": "https://crests.football-data.org/19.png",
-      "result_probs": {
-        "home_pct": 47.1,
-        "draw_pct": 18.0,
-        "away_pct": 34.9
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Either Team to Win",
-          "confidence": 82.0,
-          "edge": 9.0
-        },
-        "over_under": {
-          "pick": "Over 2.5 Goals",
-          "confidence": 53.9,
-          "expected_goals": 2.84,
-          "edge": 3.9
-        },
-        "btts": {
-          "pick": "Both Teams to Score: Yes",
-          "confidence": 57.3,
-          "edge": 7.3
-        }
-      },
-      "best_market": "double_chance"
-    },
-    {
-      "competition": "Bundesliga",
-      "date": "2026-08-29T13:30:00Z",
-      "home_team": "SV 07 Elversberg",
-      "away_team": "Bayer 04 Leverkusen",
-      "home_crest": "https://crests.football-data.org/719.png",
-      "away_crest": "https://crests.football-data.org/3.png",
-      "result_probs": {
-        "home_pct": 47.1,
-        "draw_pct": 18.0,
-        "away_pct": 34.9
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Either Team to Win",
-          "confidence": 82.0,
-          "edge": 9.0
-        },
-        "over_under": {
-          "pick": "Over 2.5 Goals",
-          "confidence": 53.9,
-          "expected_goals": 2.84,
-          "edge": 3.9
-        },
-        "btts": {
-          "pick": "Both Teams to Score: Yes",
-          "confidence": 57.3,
-          "edge": 7.3
-        }
-      },
-      "best_market": "double_chance"
-    },
-    {
-      "competition": "Bundesliga",
-      "date": "2026-08-29T13:30:00Z",
-      "home_team": "1. FC K\u00f6ln",
-      "away_team": "TSG 1899 Hoffenheim",
-      "home_crest": "https://crests.football-data.org/1.png",
-      "away_crest": "https://crests.football-data.org/2.png",
-      "result_probs": {
-        "home_pct": 47.1,
-        "draw_pct": 18.0,
-        "away_pct": 34.9
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Either Team to Win",
-          "confidence": 82.0,
-          "edge": 9.0
-        },
-        "over_under": {
-          "pick": "Over 2.5 Goals",
-          "confidence": 53.9,
-          "expected_goals": 2.84,
-          "edge": 3.9
-        },
-        "btts": {
-          "pick": "Both Teams to Score: Yes",
-          "confidence": 57.3,
-          "edge": 7.3
-        }
-      },
-      "best_market": "double_chance"
-    },
-    {
-      "competition": "Premier League",
-      "date": "2026-08-29T14:00:00Z",
-      "home_team": "AFC Bournemouth",
-      "away_team": "Everton FC",
-      "home_crest": "https://crests.football-data.org/bournemouth.png",
-      "away_crest": "https://crests.football-data.org/62.png",
-      "result_probs": {
-        "home_pct": 19.8,
-        "draw_pct": 18.0,
-        "away_pct": 62.2
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Draw or Everton FC",
-          "confidence": 80.2,
-          "edge": 25.2
-        },
-        "over_under": {
-          "pick": "Under 2.5 Goals",
-          "confidence": 51.0,
-          "expected_goals": 2.64,
-          "edge": 1.0
-        },
-        "btts": {
-          "pick": "Both Teams to Score: No",
-          "confidence": 52.9,
-          "edge": 2.9
-        }
-      },
-      "best_market": "double_chance"
-    },
-    {
-      "competition": "Premier League",
-      "date": "2026-08-29T14:00:00Z",
-      "home_team": "Coventry City FC",
-      "away_team": "Hull City AFC",
-      "home_crest": "https://crests.football-data.org/1076.png",
-      "away_crest": "https://crests.football-data.org/322.png",
-      "result_probs": {
-        "home_pct": 18.5,
-        "draw_pct": 18.0,
-        "away_pct": 63.5
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Draw or Hull City AFC",
-          "confidence": 81.5,
-          "edge": 26.5
-        },
-        "over_under": {
-          "pick": "Under 2.5 Goals",
-          "confidence": 51.8,
-          "expected_goals": 2.6,
-          "edge": 1.8
-        },
-        "btts": {
-          "pick": "Both Teams to Score: No",
-          "confidence": 68.2,
-          "edge": 18.2
-        }
-      },
-      "best_market": "double_chance"
-    },
-    {
-      "competition": "Championship",
-      "date": "2026-08-29T14:00:00Z",
-      "home_team": "Norwich City FC",
-      "away_team": "Burnley FC",
-      "home_crest": "https://crests.football-data.org/68.png",
-      "away_crest": "https://crests.football-data.org/328.png",
-      "result_probs": {
-        "home_pct": 35.2,
-        "draw_pct": 20.8,
-        "away_pct": 44.0
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Draw or Burnley FC",
-          "confidence": 64.8,
-          "edge": 9.8
-        },
-        "over_under": {
-          "pick": "Over 2.5 Goals",
-          "confidence": 66.1,
-          "expected_goals": 3.41,
-          "edge": 16.1
-        },
-        "btts": {
-          "pick": "Both Teams to Score: Yes",
-          "confidence": 66.7,
-          "edge": 16.7
-        }
-      },
-      "best_market": "btts"
-    },
-    {
-      "competition": "Championship",
-      "date": "2026-08-29T14:00:00Z",
-      "home_team": "Bolton Wanderers FC",
-      "away_team": "Lincoln City FC",
-      "home_crest": "https://crests.football-data.org/60.png",
-      "away_crest": "https://crests.football-data.org/1126.png",
-      "result_probs": {
-        "home_pct": 67.5,
-        "draw_pct": 18.0,
-        "away_pct": 14.5
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Bolton Wanderers FC or Draw",
-          "confidence": 85.5,
-          "edge": 13.5
-        },
-        "over_under": {
-          "pick": "Over 2.5 Goals",
-          "confidence": 51.2,
-          "expected_goals": 2.72,
-          "edge": 1.2
-        },
-        "btts": {
-          "pick": "Both Teams to Score: Yes",
-          "confidence": 50.5,
-          "edge": 0.5
-        }
-      },
-      "best_market": "double_chance"
-    },
-    {
-      "competition": "Championship",
-      "date": "2026-08-29T14:00:00Z",
-      "home_team": "Bristol City FC",
-      "away_team": "Portsmouth FC",
-      "home_crest": "https://crests.football-data.org/387.png",
-      "away_crest": "https://crests.football-data.org/325.png",
-      "result_probs": {
-        "home_pct": 35.2,
-        "draw_pct": 18.8,
-        "away_pct": 46.0
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Draw or Portsmouth FC",
-          "confidence": 64.8,
-          "edge": 9.8
-        },
-        "over_under": {
-          "pick": "Over 2.5 Goals",
-          "confidence": 66.1,
-          "expected_goals": 3.41,
-          "edge": 16.1
-        },
-        "btts": {
-          "pick": "Both Teams to Score: Yes",
-          "confidence": 66.7,
-          "edge": 16.7
-        }
-      },
-      "best_market": "btts"
-    },
-    {
-      "competition": "Championship",
-      "date": "2026-08-29T14:00:00Z",
-      "home_team": "Southampton FC",
-      "away_team": "Millwall FC",
-      "home_crest": "https://crests.football-data.org/340.png",
-      "away_crest": "https://crests.football-data.org/384.png",
-      "result_probs": {
-        "home_pct": 35.1,
-        "draw_pct": 21.9,
-        "away_pct": 43.0
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Draw or Millwall FC",
-          "confidence": 64.9,
-          "edge": 9.9
-        },
-        "over_under": {
-          "pick": "Over 2.5 Goals",
-          "confidence": 58.1,
-          "expected_goals": 3.02,
-          "edge": 8.1
-        },
-        "btts": {
-          "pick": "Both Teams to Score: Yes",
-          "confidence": 58.8,
-          "edge": 8.8
-        }
-      },
-      "best_market": "double_chance"
-    },
-    {
-      "competition": "Championship",
-      "date": "2026-08-29T14:00:00Z",
-      "home_team": "Charlton Athletic FC",
-      "away_team": "Preston North End FC",
-      "home_crest": "https://crests.football-data.org/348.png",
-      "away_crest": "https://crests.football-data.org/1081.png",
-      "result_probs": {
-        "home_pct": 70.7,
-        "draw_pct": 18.0,
-        "away_pct": 11.3
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Charlton Athletic FC or Draw",
-          "confidence": 88.7,
-          "edge": 16.7
-        },
-        "over_under": {
-          "pick": "Over 2.5 Goals",
-          "confidence": 63.7,
-          "expected_goals": 3.28,
-          "edge": 13.7
-        },
-        "btts": {
-          "pick": "Both Teams to Score: Yes",
-          "confidence": 59.3,
-          "edge": 9.3
-        }
-      },
-      "best_market": "double_chance"
-    },
-    {
-      "competition": "Eredivisie",
-      "date": "2026-08-29T14:30:00Z",
-      "home_team": "SBV Excelsior",
-      "away_team": "Sparta Rotterdam",
-      "home_crest": "https://crests.football-data.org/670.png",
-      "away_crest": "https://crests.football-data.org/6806.png",
-      "result_probs": {
-        "home_pct": 49.1,
-        "draw_pct": 18.0,
-        "away_pct": 32.9
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Either Team to Win",
-          "confidence": 82.0,
-          "edge": 9.0
-        },
-        "over_under": {
-          "pick": "Over 2.5 Goals",
-          "confidence": 68.0,
-          "expected_goals": 3.5,
-          "edge": 18.0
-        },
-        "btts": {
-          "pick": "Both Teams to Score: Yes",
-          "confidence": 66.8,
-          "edge": 16.8
-        }
-      },
-      "best_market": "over_under"
-    },
-    {
-      "competition": "Primeira Liga",
-      "date": "2026-08-29T14:30:00Z",
-      "home_team": "FC Alverca",
-      "away_team": "CD Santa Clara",
-      "home_crest": "https://crests.football-data.org/7822.png",
-      "away_crest": "https://crests.football-data.org/5530.png",
-      "result_probs": {
-        "home_pct": 26.0,
-        "draw_pct": 18.0,
-        "away_pct": 56.0
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Draw or CD Santa Clara",
-          "confidence": 74.0,
-          "edge": 19.0
-        },
-        "over_under": {
-          "pick": "Over 2.5 Goals",
-          "confidence": 52.5,
-          "expected_goals": 2.78,
-          "edge": 2.5
-        },
-        "btts": {
-          "pick": "Both Teams to Score: Yes",
-          "confidence": 54.0,
-          "edge": 4.0
-        }
-      },
-      "best_market": "double_chance"
-    },
-    {
-      "competition": "Primeira Liga",
-      "date": "2026-08-29T14:30:00Z",
-      "home_team": "FC Arouca",
-      "away_team": "CS Mar\u00edtimo",
-      "home_crest": "https://crests.football-data.org/712.png",
-      "away_crest": "https://crests.football-data.org/5575.png",
-      "result_probs": {
-        "home_pct": 43.3,
-        "draw_pct": 21.5,
-        "away_pct": 35.1
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Either Team to Win",
-          "confidence": 78.5,
-          "edge": 5.5
-        },
-        "over_under": {
-          "pick": "Over 2.5 Goals",
-          "confidence": 50.5,
-          "expected_goals": 2.69,
-          "edge": 0.5
-        },
-        "btts": {
-          "pick": "Both Teams to Score: Yes",
-          "confidence": 54.3,
-          "edge": 4.3
-        }
-      },
-      "best_market": "double_chance"
-    },
-    {
-      "competition": "La Liga",
-      "date": "2026-08-29T15:00:00Z",
-      "home_team": "Levante UD",
-      "away_team": "Real Betis Balompi\u00e9",
-      "home_crest": "https://crests.football-data.org/88.png",
-      "away_crest": "https://crests.football-data.org/90.png",
-      "result_probs": {
-        "home_pct": 25.7,
-        "draw_pct": 18.0,
-        "away_pct": 56.3
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Draw or Real Betis Balompi\u00e9",
-          "confidence": 74.3,
-          "edge": 19.3
-        },
-        "over_under": {
-          "pick": "Under 2.5 Goals",
-          "confidence": 75.0,
-          "expected_goals": 1.73,
-          "edge": 25.0
-        },
-        "btts": {
-          "pick": "Both Teams to Score: No",
-          "confidence": 74.0,
-          "edge": 24.0
-        }
-      },
-      "best_market": "over_under"
-    },
-    {
-      "competition": "Ligue 1",
-      "date": "2026-08-29T15:15:00Z",
-      "home_team": "RC Strasbourg Alsace",
-      "away_team": "Racing Club de Lens",
-      "home_crest": "https://crests.football-data.org/576.png",
-      "away_crest": "https://crests.football-data.org/546.png",
-      "result_probs": {
-        "home_pct": 17.7,
-        "draw_pct": 18.0,
-        "away_pct": 64.3
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Draw or Racing Club de Lens",
-          "confidence": 82.3,
-          "edge": 27.3
-        },
-        "over_under": {
-          "pick": "Over 2.5 Goals",
-          "confidence": 85.5,
-          "expected_goals": 4.77,
-          "edge": 35.5
-        },
-        "btts": {
-          "pick": "Both Teams to Score: Yes",
-          "confidence": 68.3,
-          "edge": 18.3
-        }
-      },
-      "best_market": "over_under"
-    },
-    {
-      "competition": "Premier League",
-      "date": "2026-08-29T16:30:00Z",
-      "home_team": "Tottenham Hotspur FC",
-      "away_team": "Newcastle United FC",
-      "home_crest": "https://crests.football-data.org/73.png",
-      "away_crest": "https://crests.football-data.org/67.png",
-      "result_probs": {
-        "home_pct": 30.6,
-        "draw_pct": 18.0,
-        "away_pct": 51.4
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Draw or Newcastle United FC",
-          "confidence": 69.4,
-          "edge": 14.4
-        },
-        "over_under": {
-          "pick": "Over 2.5 Goals",
-          "confidence": 65.5,
-          "expected_goals": 3.37,
-          "edge": 15.5
-        },
-        "btts": {
-          "pick": "Both Teams to Score: Yes",
-          "confidence": 62.2,
-          "edge": 12.2
-        }
-      },
-      "best_market": "over_under"
-    },
-    {
-      "competition": "Serie A",
-      "date": "2026-08-29T16:30:00Z",
-      "home_team": "US Sassuolo Calcio",
-      "away_team": "Torino FC",
-      "home_crest": "https://crests.football-data.org/471.png",
-      "away_crest": "https://crests.football-data.org/586.png",
-      "result_probs": {
-        "home_pct": 47.1,
-        "draw_pct": 18.0,
-        "away_pct": 34.9
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Either Team to Win",
-          "confidence": 82.0,
-          "edge": 9.0
-        },
-        "over_under": {
-          "pick": "Over 2.5 Goals",
-          "confidence": 58.9,
-          "expected_goals": 3.06,
-          "edge": 8.9
-        },
-        "btts": {
-          "pick": "Both Teams to Score: Yes",
-          "confidence": 61.2,
-          "edge": 11.2
-        }
-      },
-      "best_market": "btts"
-    },
-    {
-      "competition": "Serie A",
-      "date": "2026-08-29T16:30:00Z",
-      "home_team": "AC Monza",
-      "away_team": "Udinese Calcio",
-      "home_crest": "https://crests.football-data.org/5911.png",
-      "away_crest": "https://crests.football-data.org/115.png",
-      "result_probs": {
-        "home_pct": 30.6,
-        "draw_pct": 18.0,
-        "away_pct": 51.4
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Draw or Udinese Calcio",
-          "confidence": 69.4,
-          "edge": 14.4
-        },
-        "over_under": {
-          "pick": "Over 2.5 Goals",
-          "confidence": 65.5,
-          "expected_goals": 3.37,
-          "edge": 15.5
-        },
-        "btts": {
-          "pick": "Both Teams to Score: Yes",
-          "confidence": 62.2,
-          "edge": 12.2
-        }
-      },
-      "best_market": "over_under"
-    },
-    {
-      "competition": "Serie A",
-      "date": "2026-08-29T16:30:00Z",
-      "home_team": "ACF Fiorentina",
-      "away_team": "Frosinone Calcio",
-      "home_crest": "https://crests.football-data.org/99.png",
-      "away_crest": "https://crests.football-data.org/470.png",
-      "result_probs": {
-        "home_pct": 41.3,
-        "draw_pct": 23.7,
-        "away_pct": 35.0
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Draw or Frosinone Calcio",
-          "confidence": 58.7,
-          "edge": 3.7
-        },
-        "over_under": {
-          "pick": "Under 2.5 Goals",
-          "confidence": 51.0,
-          "expected_goals": 2.64,
-          "edge": 1.0
-        },
-        "btts": {
-          "pick": "Both Teams to Score: No",
-          "confidence": 52.9,
-          "edge": 2.9
-        }
-      },
-      "best_market": "double_chance"
-    },
-    {
-      "competition": "Eredivisie",
-      "date": "2026-08-29T16:45:00Z",
-      "home_team": "AZ",
-      "away_team": "Go Ahead Eagles",
-      "home_crest": "https://crests.football-data.org/682.png",
-      "away_crest": "https://crests.football-data.org/718.png",
-      "result_probs": {
-        "home_pct": 50.9,
-        "draw_pct": 18.0,
-        "away_pct": 31.1
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Either Team to Win",
-          "confidence": 82.0,
-          "edge": 9.0
-        },
-        "over_under": {
-          "pick": "Over 2.5 Goals",
-          "confidence": 69.0,
-          "expected_goals": 3.56,
-          "edge": 19.0
-        },
-        "btts": {
-          "pick": "Both Teams to Score: Yes",
-          "confidence": 68.4,
-          "edge": 18.4
-        }
-      },
-      "best_market": "over_under"
-    },
-    {
-      "competition": "La Liga",
-      "date": "2026-08-29T17:00:00Z",
-      "home_team": "Real Sociedad de F\u00fatbol",
-      "away_team": "RCD Espanyol de Barcelona",
-      "home_crest": "https://crests.football-data.org/92.png",
-      "away_crest": "https://crests.football-data.org/80.png",
-      "result_probs": {
-        "home_pct": 25.0,
-        "draw_pct": 18.0,
-        "away_pct": 57.0
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Draw or RCD Espanyol de Barcelona",
-          "confidence": 75.0,
-          "edge": 20.0
-        },
-        "over_under": {
-          "pick": "Over 2.5 Goals",
-          "confidence": 57.7,
-          "expected_goals": 3.0,
-          "edge": 7.7
-        },
-        "btts": {
-          "pick": "Both Teams to Score: Yes",
-          "confidence": 55.2,
-          "edge": 5.2
-        }
-      },
-      "best_market": "double_chance"
-    },
-    {
-      "competition": "Primeira Liga",
-      "date": "2026-08-29T17:00:00Z",
-      "home_team": "Acad\u00e9mico de Viseu FC",
-      "away_team": "FC Porto",
-      "home_crest": "https://crests.football-data.org/5527.png",
-      "away_crest": "https://crests.football-data.org/503.png",
-      "result_probs": {
-        "home_pct": 28.0,
-        "draw_pct": 18.0,
-        "away_pct": 54.0
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Draw or FC Porto",
-          "confidence": 72.0,
-          "edge": 17.0
-        },
-        "over_under": {
-          "pick": "Under 2.5 Goals",
-          "confidence": 50.7,
-          "expected_goals": 2.65,
-          "edge": 0.7
-        },
-        "btts": {
-          "pick": "Both Teams to Score: Yes",
-          "confidence": 50.3,
-          "edge": 0.3
-        }
-      },
-      "best_market": "double_chance"
-    },
-    {
-      "competition": "Serie A",
-      "date": "2026-08-29T18:45:00Z",
-      "home_team": "Juventus FC",
-      "away_team": "Parma Calcio 1913",
-      "home_crest": "https://crests.football-data.org/109.png",
-      "away_crest": "https://crests.football-data.org/112.png",
-      "result_probs": {
-        "home_pct": 69.7,
-        "draw_pct": 18.0,
-        "away_pct": 12.3
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Juventus FC or Draw",
-          "confidence": 87.7,
-          "edge": 15.7
-        },
-        "over_under": {
-          "pick": "Under 2.5 Goals",
-          "confidence": 77.8,
-          "expected_goals": 1.62,
-          "edge": 27.8
-        },
-        "btts": {
-          "pick": "Both Teams to Score: No",
-          "confidence": 76.6,
-          "edge": 26.6
-        }
-      },
-      "best_market": "over_under"
-    },
-    {
-      "competition": "Ligue 1",
-      "date": "2026-08-29T18:45:00Z",
-      "home_team": "FC Lorient",
-      "away_team": "ES Troyes AC",
-      "home_crest": "https://crests.football-data.org/525.png",
-      "away_crest": "https://crests.football-data.org/531.png",
-      "result_probs": {
-        "home_pct": 47.1,
-        "draw_pct": 18.0,
-        "away_pct": 34.9
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Either Team to Win",
-          "confidence": 82.0,
-          "edge": 9.0
-        },
-        "over_under": {
-          "pick": "Under 2.5 Goals",
-          "confidence": 94.5,
-          "expected_goals": 0.85,
-          "edge": 44.5
-        },
-        "btts": {
-          "pick": "Both Teams to Score: No",
-          "confidence": 88.0,
-          "edge": 38.0
-        }
-      },
-      "best_market": "over_under"
-    },
-    {
-      "competition": "Ligue 1",
-      "date": "2026-08-29T18:45:00Z",
-      "home_team": "Olympique Lyonnais",
-      "away_team": "Le Havre AC",
-      "home_crest": "https://crests.football-data.org/523.png",
-      "away_crest": "https://crests.football-data.org/533.png",
-      "result_probs": {
-        "home_pct": 69.8,
-        "draw_pct": 18.0,
-        "away_pct": 12.2
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Olympique Lyonnais or Draw",
-          "confidence": 87.8,
-          "edge": 15.8
-        },
-        "over_under": {
-          "pick": "Under 2.5 Goals",
-          "confidence": 67.5,
-          "expected_goals": 2.01,
-          "edge": 17.5
-        },
-        "btts": {
-          "pick": "Both Teams to Score: No",
-          "confidence": 73.4,
-          "edge": 23.4
-        }
-      },
-      "best_market": "btts"
-    },
-    {
-      "competition": "Ligue 1",
-      "date": "2026-08-29T18:45:00Z",
-      "home_team": "AJ Auxerre",
-      "away_team": "Angers SCO",
-      "home_crest": "https://crests.football-data.org/519.png",
-      "away_crest": "https://crests.football-data.org/532.png",
-      "result_probs": {
-        "home_pct": 45.5,
-        "draw_pct": 19.3,
-        "away_pct": 35.2
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Either Team to Win",
-          "confidence": 80.7,
-          "edge": 7.7
-        },
-        "over_under": {
-          "pick": "Over 2.5 Goals",
-          "confidence": 78.2,
-          "expected_goals": 4.14,
-          "edge": 28.2
-        },
-        "btts": {
-          "pick": "Both Teams to Score: Yes",
-          "confidence": 76.3,
-          "edge": 26.3
-        }
-      },
-      "best_market": "over_under"
-    },
-    {
-      "competition": "Ligue 1",
-      "date": "2026-08-29T18:45:00Z",
-      "home_team": "Stade Brestois 29",
-      "away_team": "Toulouse FC",
-      "home_crest": "https://crests.football-data.org/512.png",
-      "away_crest": "https://crests.football-data.org/511.png",
-      "result_probs": {
-        "home_pct": 61.2,
-        "draw_pct": 18.0,
-        "away_pct": 20.8
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Either Team to Win",
-          "confidence": 82.0,
-          "edge": 9.0
-        },
-        "over_under": {
-          "pick": "Over 2.5 Goals",
-          "confidence": 59.7,
-          "expected_goals": 3.09,
-          "edge": 9.7
-        },
-        "btts": {
-          "pick": "Both Teams to Score: Yes",
-          "confidence": 57.7,
-          "edge": 7.7
-        }
-      },
-      "best_market": "over_under"
-    },
-    {
-      "competition": "Eredivisie",
-      "date": "2026-08-29T19:00:00Z",
-      "home_team": "PEC Zwolle",
-      "away_team": "NEC",
-      "home_crest": "https://crests.football-data.org/684.png",
-      "away_crest": "https://crests.football-data.org/1915.png",
-      "result_probs": {
-        "home_pct": 34.2,
-        "draw_pct": 31.8,
-        "away_pct": 34.0
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Draw or NEC",
-          "confidence": 65.8,
-          "edge": 10.8
-        },
-        "over_under": {
-          "pick": "Over 2.5 Goals",
-          "confidence": 63.5,
-          "expected_goals": 3.27,
-          "edge": 13.5
-        },
-        "btts": {
-          "pick": "Both Teams to Score: Yes",
-          "confidence": 63.8,
-          "edge": 13.8
-        }
-      },
-      "best_market": "btts"
-    },
-    {
-      "competition": "La Liga",
-      "date": "2026-08-29T19:30:00Z",
-      "home_team": "Sevilla FC",
-      "away_team": "Club Atl\u00e9tico de Madrid",
-      "home_crest": "https://crests.football-data.org/559.png",
-      "away_crest": "https://crests.football-data.org/78.png",
-      "result_probs": {
-        "home_pct": 52.8,
-        "draw_pct": 18.0,
-        "away_pct": 29.2
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Either Team to Win",
-          "confidence": 82.0,
-          "edge": 9.0
-        },
-        "over_under": {
-          "pick": "Over 2.5 Goals",
-          "confidence": 63.0,
-          "expected_goals": 3.25,
-          "edge": 13.0
-        },
-        "btts": {
-          "pick": "Both Teams to Score: Yes",
-          "confidence": 63.9,
-          "edge": 13.9
-        }
-      },
-      "best_market": "btts"
-    },
-    {
-      "competition": "Eredivisie",
-      "date": "2026-08-30T10:15:00Z",
-      "home_team": "FC Utrecht",
-      "away_team": "PSV",
-      "home_crest": "https://crests.football-data.org/676.png",
-      "away_crest": "https://crests.football-data.org/674.png",
-      "result_probs": {
-        "home_pct": 25.4,
-        "draw_pct": 18.0,
-        "away_pct": 56.6
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Draw or PSV",
-          "confidence": 74.6,
-          "edge": 19.6
-        },
-        "over_under": {
-          "pick": "Over 2.5 Goals",
-          "confidence": 77.7,
-          "expected_goals": 4.11,
-          "edge": 27.7
-        },
-        "btts": {
-          "pick": "Both Teams to Score: Yes",
-          "confidence": 73.3,
-          "edge": 23.3
-        }
-      },
-      "best_market": "over_under"
-    },
-    {
-      "competition": "Eredivisie",
-      "date": "2026-08-30T12:30:00Z",
-      "home_team": "Willem II Tilburg",
-      "away_team": "SC Heerenveen",
-      "home_crest": "https://crests.football-data.org/672.png",
-      "away_crest": "https://crests.football-data.org/673.png",
-      "result_probs": {
-        "home_pct": 25.3,
-        "draw_pct": 18.0,
-        "away_pct": 56.7
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Draw or SC Heerenveen",
-          "confidence": 74.7,
-          "edge": 19.7
-        },
-        "over_under": {
-          "pick": "Over 2.5 Goals",
-          "confidence": 67.9,
-          "expected_goals": 3.5,
-          "edge": 17.9
-        },
-        "btts": {
-          "pick": "Both Teams to Score: Yes",
-          "confidence": 65.3,
-          "edge": 15.3
-        }
-      },
-      "best_market": "double_chance"
-    },
     {
       "competition": "Premier League",
       "date": "2026-08-30T13:00:00Z",
@@ -1122,6 +66,102 @@
       "best_market": "over_under"
     },
     {
+      "competition": "Premier League",
+      "date": "2026-08-30T13:00:00Z",
+      "home_team": "Leeds United FC",
+      "away_team": "Brentford FC",
+      "home_crest": "https://crests.football-data.org/341.png",
+      "away_crest": "https://crests.football-data.org/402.png",
+      "result_probs": {
+        "home_pct": 46.7,
+        "draw_pct": 18.1,
+        "away_pct": 35.3
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Either Team to Win",
+          "confidence": 81.9,
+          "edge": 8.9
+        },
+        "over_under": {
+          "pick": "Under 2.5 Goals",
+          "confidence": 60.0,
+          "expected_goals": 2.29,
+          "edge": 10.0
+        },
+        "btts": {
+          "pick": "Both Teams to Score: No",
+          "confidence": 56.8,
+          "edge": 6.8
+        }
+      },
+      "best_market": "over_under"
+    },
+    {
+      "competition": "Ligue 1",
+      "date": "2026-08-30T13:00:00Z",
+      "home_team": "Paris FC",
+      "away_team": "OGC Nice",
+      "home_crest": "https://crests.football-data.org/1045.png",
+      "away_crest": "https://crests.football-data.org/522.png",
+      "result_probs": {
+        "home_pct": 47.1,
+        "draw_pct": 18.0,
+        "away_pct": 34.9
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Either Team to Win",
+          "confidence": 82.0,
+          "edge": 9.0
+        },
+        "over_under": {
+          "pick": "Under 2.5 Goals",
+          "confidence": 94.5,
+          "expected_goals": 0.85,
+          "edge": 44.5
+        },
+        "btts": {
+          "pick": "Both Teams to Score: No",
+          "confidence": 88.0,
+          "edge": 38.0
+        }
+      },
+      "best_market": "over_under"
+    },
+    {
+      "competition": "Bundesliga",
+      "date": "2026-08-30T13:30:00Z",
+      "home_team": "SC Freiburg",
+      "away_team": "SV Werder Bremen",
+      "home_crest": "https://crests.football-data.org/17.png",
+      "away_crest": "https://crests.football-data.org/12.png",
+      "result_probs": {
+        "home_pct": 47.1,
+        "draw_pct": 18.0,
+        "away_pct": 34.9
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Either Team to Win",
+          "confidence": 82.0,
+          "edge": 9.0
+        },
+        "over_under": {
+          "pick": "Over 2.5 Goals",
+          "confidence": 53.9,
+          "expected_goals": 2.84,
+          "edge": 3.9
+        },
+        "btts": {
+          "pick": "Both Teams to Score: Yes",
+          "confidence": 57.3,
+          "edge": 7.3
+        }
+      },
+      "best_market": "double_chance"
+    },
+    {
       "competition": "Primeira Liga",
       "date": "2026-08-30T14:30:00Z",
       "home_team": "CD Nacional",
@@ -1181,6 +221,102 @@
           "pick": "Both Teams to Score: Yes",
           "confidence": 53.7,
           "edge": 3.7
+        }
+      },
+      "best_market": "double_chance"
+    },
+    {
+      "competition": "Ligue 1",
+      "date": "2026-08-30T15:15:00Z",
+      "home_team": "Stade Rennais FC 1901",
+      "away_team": "Le Mans FC",
+      "home_crest": "https://crests.football-data.org/529.png",
+      "away_crest": "https://upload.wikimedia.org/wikipedia/en/5/57/Le_Mans_FC_logo.svg",
+      "result_probs": {
+        "home_pct": 47.1,
+        "draw_pct": 18.0,
+        "away_pct": 34.9
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Either Team to Win",
+          "confidence": 82.0,
+          "edge": 9.0
+        },
+        "over_under": {
+          "pick": "Over 2.5 Goals",
+          "confidence": 73.0,
+          "expected_goals": 3.79,
+          "edge": 23.0
+        },
+        "btts": {
+          "pick": "Both Teams to Score: Yes",
+          "confidence": 72.1,
+          "edge": 22.1
+        }
+      },
+      "best_market": "over_under"
+    },
+    {
+      "competition": "Premier League",
+      "date": "2026-08-30T15:30:00Z",
+      "home_team": "Manchester United FC",
+      "away_team": "Ipswich Town FC",
+      "home_crest": "https://crests.football-data.org/66.png",
+      "away_crest": "https://crests.football-data.org/349.png",
+      "result_probs": {
+        "home_pct": 19.3,
+        "draw_pct": 18.0,
+        "away_pct": 62.7
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Draw or Ipswich Town FC",
+          "confidence": 80.7,
+          "edge": 25.7
+        },
+        "over_under": {
+          "pick": "Under 2.5 Goals",
+          "confidence": 51.0,
+          "expected_goals": 2.64,
+          "edge": 1.0
+        },
+        "btts": {
+          "pick": "Both Teams to Score: No",
+          "confidence": 52.9,
+          "edge": 2.9
+        }
+      },
+      "best_market": "double_chance"
+    },
+    {
+      "competition": "Bundesliga",
+      "date": "2026-08-30T15:30:00Z",
+      "home_team": "FC Augsburg",
+      "away_team": "FC Schalke 04",
+      "home_crest": "https://crests.football-data.org/16.png",
+      "away_crest": "https://crests.football-data.org/6.png",
+      "result_probs": {
+        "home_pct": 47.1,
+        "draw_pct": 18.0,
+        "away_pct": 34.9
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Either Team to Win",
+          "confidence": 82.0,
+          "edge": 9.0
+        },
+        "over_under": {
+          "pick": "Over 2.5 Goals",
+          "confidence": 53.9,
+          "expected_goals": 2.84,
+          "edge": 3.9
+        },
+        "btts": {
+          "pick": "Both Teams to Score: Yes",
+          "confidence": 57.3,
+          "edge": 7.3
         }
       },
       "best_market": "double_chance"
@@ -1280,6 +416,710 @@
         }
       },
       "best_market": "over_under"
+    },
+    {
+      "competition": "Serie A",
+      "date": "2026-08-30T18:45:00Z",
+      "home_team": "SS Lazio",
+      "away_team": "Genoa CFC",
+      "home_crest": "https://crests.football-data.org/110.png",
+      "away_crest": "https://crests.football-data.org/107.png",
+      "result_probs": {
+        "home_pct": 70.2,
+        "draw_pct": 18.0,
+        "away_pct": 11.8
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "SS Lazio or Draw",
+          "confidence": 88.2,
+          "edge": 16.2
+        },
+        "over_under": {
+          "pick": "Under 2.5 Goals",
+          "confidence": 67.5,
+          "expected_goals": 2.01,
+          "edge": 17.5
+        },
+        "btts": {
+          "pick": "Both Teams to Score: No",
+          "confidence": 73.4,
+          "edge": 23.4
+        }
+      },
+      "best_market": "btts"
+    },
+    {
+      "competition": "Serie A",
+      "date": "2026-08-30T18:45:00Z",
+      "home_team": "Cagliari Calcio",
+      "away_team": "FC Internazionale Milano",
+      "home_crest": "https://crests.football-data.org/104.png",
+      "away_crest": "https://crests.football-data.org/108.png",
+      "result_probs": {
+        "home_pct": 46.7,
+        "draw_pct": 18.1,
+        "away_pct": 35.3
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Either Team to Win",
+          "confidence": 81.9,
+          "edge": 8.9
+        },
+        "over_under": {
+          "pick": "Over 2.5 Goals",
+          "confidence": 58.1,
+          "expected_goals": 3.02,
+          "edge": 8.1
+        },
+        "btts": {
+          "pick": "Both Teams to Score: Yes",
+          "confidence": 58.8,
+          "edge": 8.8
+        }
+      },
+      "best_market": "double_chance"
+    },
+    {
+      "competition": "Ligue 1",
+      "date": "2026-08-30T18:45:00Z",
+      "home_team": "AS Monaco FC",
+      "away_team": "Olympique de Marseille",
+      "home_crest": "https://crests.football-data.org/548.png",
+      "away_crest": "https://crests.football-data.org/516.png",
+      "result_probs": {
+        "home_pct": 46.2,
+        "draw_pct": 18.5,
+        "away_pct": 35.2
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Either Team to Win",
+          "confidence": 81.5,
+          "edge": 8.5
+        },
+        "over_under": {
+          "pick": "Under 2.5 Goals",
+          "confidence": 51.0,
+          "expected_goals": 2.64,
+          "edge": 1.0
+        },
+        "btts": {
+          "pick": "Both Teams to Score: No",
+          "confidence": 52.9,
+          "edge": 2.9
+        }
+      },
+      "best_market": "double_chance"
+    },
+    {
+      "competition": "La Liga",
+      "date": "2026-08-30T19:30:00Z",
+      "home_team": "RC Celta de Vigo",
+      "away_team": "Athletic Club",
+      "home_crest": "https://crests.football-data.org/558.png",
+      "away_crest": "https://crests.football-data.org/77.png",
+      "result_probs": {
+        "home_pct": 57.5,
+        "draw_pct": 18.0,
+        "away_pct": 24.5
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Either Team to Win",
+          "confidence": 82.0,
+          "edge": 9.0
+        },
+        "over_under": {
+          "pick": "Under 2.5 Goals",
+          "confidence": 53.6,
+          "expected_goals": 2.53,
+          "edge": 3.6
+        },
+        "btts": {
+          "pick": "Both Teams to Score: No",
+          "confidence": 51.7,
+          "edge": 1.7
+        }
+      },
+      "best_market": "double_chance"
+    },
+    {
+      "competition": "Primeira Liga",
+      "date": "2026-08-30T19:30:00Z",
+      "home_team": "FC Famalic\u00e3o",
+      "away_team": "Gil Vicente FC",
+      "home_crest": "https://crests.football-data.org/5531.png",
+      "away_crest": "https://crests.football-data.org/5533.png",
+      "result_probs": {
+        "home_pct": 23.9,
+        "draw_pct": 18.0,
+        "away_pct": 58.1
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Draw or Gil Vicente FC",
+          "confidence": 76.1,
+          "edge": 21.1
+        },
+        "over_under": {
+          "pick": "Under 2.5 Goals",
+          "confidence": 65.0,
+          "expected_goals": 2.1,
+          "edge": 15.0
+        },
+        "btts": {
+          "pick": "Both Teams to Score: No",
+          "confidence": 62.0,
+          "edge": 12.0
+        }
+      },
+      "best_market": "double_chance"
+    },
+    {
+      "competition": "Serie A",
+      "date": "2026-08-31T16:30:00Z",
+      "home_team": "US Lecce",
+      "away_team": "AS Roma",
+      "home_crest": "https://crests.football-data.org/5890.png",
+      "away_crest": "https://crests.football-data.org/100.png",
+      "result_probs": {
+        "home_pct": 46.7,
+        "draw_pct": 18.1,
+        "away_pct": 35.3
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Either Team to Win",
+          "confidence": 81.9,
+          "edge": 8.9
+        },
+        "over_under": {
+          "pick": "Over 2.5 Goals",
+          "confidence": 58.1,
+          "expected_goals": 3.02,
+          "edge": 8.1
+        },
+        "btts": {
+          "pick": "Both Teams to Score: Yes",
+          "confidence": 58.8,
+          "edge": 8.8
+        }
+      },
+      "best_market": "double_chance"
+    },
+    {
+      "competition": "La Liga",
+      "date": "2026-08-31T17:30:00Z",
+      "home_team": "CA Osasuna",
+      "away_team": "Getafe CF",
+      "home_crest": "https://crests.football-data.org/79.png",
+      "away_crest": "https://crests.football-data.org/82.png",
+      "result_probs": {
+        "home_pct": 51.6,
+        "draw_pct": 18.0,
+        "away_pct": 30.4
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Either Team to Win",
+          "confidence": 82.0,
+          "edge": 9.0
+        },
+        "over_under": {
+          "pick": "Under 2.5 Goals",
+          "confidence": 63.3,
+          "expected_goals": 2.16,
+          "edge": 13.3
+        },
+        "btts": {
+          "pick": "Both Teams to Score: No",
+          "confidence": 60.0,
+          "edge": 10.0
+        }
+      },
+      "best_market": "over_under"
+    },
+    {
+      "competition": "Serie A",
+      "date": "2026-08-31T18:45:00Z",
+      "home_team": "Atalanta BC",
+      "away_team": "Bologna FC 1909",
+      "home_crest": "https://crests.football-data.org/102.png",
+      "away_crest": "https://crests.football-data.org/103.png",
+      "result_probs": {
+        "home_pct": 69.7,
+        "draw_pct": 18.0,
+        "away_pct": 12.3
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Atalanta BC or Draw",
+          "confidence": 87.7,
+          "edge": 15.7
+        },
+        "over_under": {
+          "pick": "Under 2.5 Goals",
+          "confidence": 58.1,
+          "expected_goals": 2.36,
+          "edge": 8.1
+        },
+        "btts": {
+          "pick": "Both Teams to Score: No",
+          "confidence": 57.7,
+          "edge": 7.7
+        }
+      },
+      "best_market": "double_chance"
+    },
+    {
+      "competition": "Premier League",
+      "date": "2026-08-31T19:00:00Z",
+      "home_team": "Aston Villa FC",
+      "away_team": "Arsenal FC",
+      "home_crest": "https://crests.football-data.org/58.png",
+      "away_crest": "https://crests.football-data.org/57.png",
+      "result_probs": {
+        "home_pct": 17.7,
+        "draw_pct": 18.0,
+        "away_pct": 64.3
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Draw or Arsenal FC",
+          "confidence": 82.3,
+          "edge": 27.3
+        },
+        "over_under": {
+          "pick": "Over 2.5 Goals",
+          "confidence": 64.1,
+          "expected_goals": 3.3,
+          "edge": 14.1
+        },
+        "btts": {
+          "pick": "Both Teams to Score: No",
+          "confidence": 66.1,
+          "edge": 16.1
+        }
+      },
+      "best_market": "double_chance"
+    },
+    {
+      "competition": "Primeira Liga",
+      "date": "2026-08-31T19:15:00Z",
+      "home_team": "Sport Lisboa e Benfica",
+      "away_team": "GD Estoril Praia",
+      "home_crest": "https://crests.football-data.org/1903.png",
+      "away_crest": "https://crests.football-data.org/582.png",
+      "result_probs": {
+        "home_pct": 64.8,
+        "draw_pct": 18.0,
+        "away_pct": 17.2
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Sport Lisboa e Benfica or Draw",
+          "confidence": 82.8,
+          "edge": 10.8
+        },
+        "over_under": {
+          "pick": "Over 2.5 Goals",
+          "confidence": 71.3,
+          "expected_goals": 3.69,
+          "edge": 21.3
+        },
+        "btts": {
+          "pick": "Both Teams to Score: Yes",
+          "confidence": 54.7,
+          "edge": 4.7
+        }
+      },
+      "best_market": "over_under"
+    },
+    {
+      "competition": "Primeira Liga",
+      "date": "2026-08-31T19:15:00Z",
+      "home_team": "Sporting Clube de Braga",
+      "away_team": "Vit\u00f3ria SC",
+      "home_crest": "https://crests.football-data.org/5613.png",
+      "away_crest": "https://crests.football-data.org/5543.png",
+      "result_probs": {
+        "home_pct": 47.5,
+        "draw_pct": 18.0,
+        "away_pct": 34.5
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Either Team to Win",
+          "confidence": 82.0,
+          "edge": 9.0
+        },
+        "over_under": {
+          "pick": "Over 2.5 Goals",
+          "confidence": 61.7,
+          "expected_goals": 3.18,
+          "edge": 11.7
+        },
+        "btts": {
+          "pick": "Both Teams to Score: Yes",
+          "confidence": 63.1,
+          "edge": 13.1
+        }
+      },
+      "best_market": "btts"
+    },
+    {
+      "competition": "La Liga",
+      "date": "2026-08-31T19:30:00Z",
+      "home_team": "FC Barcelona",
+      "away_team": "Rayo Vallecano de Madrid",
+      "home_crest": "https://crests.football-data.org/81.png",
+      "away_crest": "https://crests.football-data.org/87.png",
+      "result_probs": {
+        "home_pct": 65.5,
+        "draw_pct": 18.0,
+        "away_pct": 16.5
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "FC Barcelona or Draw",
+          "confidence": 83.5,
+          "edge": 11.5
+        },
+        "over_under": {
+          "pick": "Over 2.5 Goals",
+          "confidence": 60.4,
+          "expected_goals": 3.13,
+          "edge": 10.4
+        },
+        "btts": {
+          "pick": "Both Teams to Score: No",
+          "confidence": 52.0,
+          "edge": 2.0
+        }
+      },
+      "best_market": "double_chance"
+    },
+    {
+      "competition": "Championship",
+      "date": "2026-09-01T18:45:00Z",
+      "home_team": "Preston North End FC",
+      "away_team": "Bristol City FC",
+      "home_crest": "https://crests.football-data.org/1081.png",
+      "away_crest": "https://crests.football-data.org/387.png",
+      "result_probs": {
+        "home_pct": 27.1,
+        "draw_pct": 18.0,
+        "away_pct": 54.9
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Draw or Bristol City FC",
+          "confidence": 72.9,
+          "edge": 17.9
+        },
+        "over_under": {
+          "pick": "Over 2.5 Goals",
+          "confidence": 55.8,
+          "expected_goals": 2.92,
+          "edge": 5.8
+        },
+        "btts": {
+          "pick": "Both Teams to Score: Yes",
+          "confidence": 58.6,
+          "edge": 8.6
+        }
+      },
+      "best_market": "double_chance"
+    },
+    {
+      "competition": "Championship",
+      "date": "2026-09-01T18:45:00Z",
+      "home_team": "West Ham United FC",
+      "away_team": "Wolverhampton Wanderers FC",
+      "home_crest": "https://crests.football-data.org/563.png",
+      "away_crest": "https://crests.football-data.org/76.png",
+      "result_probs": {
+        "home_pct": 31.4,
+        "draw_pct": 18.0,
+        "away_pct": 50.6
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Draw or Wolverhampton Wanderers FC",
+          "confidence": 68.6,
+          "edge": 13.6
+        },
+        "over_under": {
+          "pick": "Over 2.5 Goals",
+          "confidence": 68.1,
+          "expected_goals": 3.51,
+          "edge": 18.1
+        },
+        "btts": {
+          "pick": "Both Teams to Score: Yes",
+          "confidence": 67.0,
+          "edge": 17.0
+        }
+      },
+      "best_market": "over_under"
+    },
+    {
+      "competition": "Championship",
+      "date": "2026-09-01T18:45:00Z",
+      "home_team": "Lincoln City FC",
+      "away_team": "Blackburn Rovers FC",
+      "home_crest": "https://crests.football-data.org/1126.png",
+      "away_crest": "https://crests.football-data.org/59.png",
+      "result_probs": {
+        "home_pct": 38.5,
+        "draw_pct": 26.7,
+        "away_pct": 34.7
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Draw or Blackburn Rovers FC",
+          "confidence": 61.5,
+          "edge": 6.5
+        },
+        "over_under": {
+          "pick": "Over 2.5 Goals",
+          "confidence": 58.7,
+          "expected_goals": 3.04,
+          "edge": 8.7
+        },
+        "btts": {
+          "pick": "Both Teams to Score: Yes",
+          "confidence": 61.1,
+          "edge": 11.1
+        }
+      },
+      "best_market": "btts"
+    },
+    {
+      "competition": "Championship",
+      "date": "2026-09-01T18:45:00Z",
+      "home_team": "Sheffield United FC",
+      "away_team": "Bolton Wanderers FC",
+      "home_crest": "https://crests.football-data.org/356.png",
+      "away_crest": "https://crests.football-data.org/60.png",
+      "result_probs": {
+        "home_pct": 40.4,
+        "draw_pct": 24.7,
+        "away_pct": 34.9
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Draw or Bolton Wanderers FC",
+          "confidence": 59.6,
+          "edge": 4.6
+        },
+        "over_under": {
+          "pick": "Under 2.5 Goals",
+          "confidence": 72.2,
+          "expected_goals": 1.83,
+          "edge": 22.2
+        },
+        "btts": {
+          "pick": "Both Teams to Score: No",
+          "confidence": 64.1,
+          "edge": 14.1
+        }
+      },
+      "best_market": "over_under"
+    },
+    {
+      "competition": "Championship",
+      "date": "2026-09-01T18:45:00Z",
+      "home_team": "Portsmouth FC",
+      "away_team": "Derby County FC",
+      "home_crest": "https://crests.football-data.org/325.png",
+      "away_crest": "https://crests.football-data.org/342.png",
+      "result_probs": {
+        "home_pct": 56.8,
+        "draw_pct": 18.0,
+        "away_pct": 25.2
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Either Team to Win",
+          "confidence": 82.0,
+          "edge": 9.0
+        },
+        "over_under": {
+          "pick": "Over 2.5 Goals",
+          "confidence": 66.8,
+          "expected_goals": 3.44,
+          "edge": 16.8
+        },
+        "btts": {
+          "pick": "Both Teams to Score: Yes",
+          "confidence": 66.1,
+          "edge": 16.1
+        }
+      },
+      "best_market": "over_under"
+    },
+    {
+      "competition": "Ligue 1",
+      "date": "2026-09-03T18:45:00Z",
+      "home_team": "Toulouse FC",
+      "away_team": "Lille OSC",
+      "home_crest": "https://crests.football-data.org/511.png",
+      "away_crest": "https://crests.football-data.org/521.png",
+      "result_probs": {
+        "home_pct": 31.5,
+        "draw_pct": 18.0,
+        "away_pct": 50.5
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Draw or Lille OSC",
+          "confidence": 68.5,
+          "edge": 13.5
+        },
+        "over_under": {
+          "pick": "Over 2.5 Goals",
+          "confidence": 58.1,
+          "expected_goals": 3.02,
+          "edge": 8.1
+        },
+        "btts": {
+          "pick": "Both Teams to Score: Yes",
+          "confidence": 58.8,
+          "edge": 8.8
+        }
+      },
+      "best_market": "double_chance"
+    },
+    {
+      "competition": "Ligue 1",
+      "date": "2026-09-04T17:00:00Z",
+      "home_team": "Olympique Lyonnais",
+      "away_team": "AJ Auxerre",
+      "home_crest": "https://crests.football-data.org/523.png",
+      "away_crest": "https://crests.football-data.org/519.png",
+      "result_probs": {
+        "home_pct": 68.8,
+        "draw_pct": 18.0,
+        "away_pct": 13.2
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Olympique Lyonnais or Draw",
+          "confidence": 86.8,
+          "edge": 14.8
+        },
+        "over_under": {
+          "pick": "Over 2.5 Goals",
+          "confidence": 70.9,
+          "expected_goals": 3.67,
+          "edge": 20.9
+        },
+        "btts": {
+          "pick": "Both Teams to Score: Yes",
+          "confidence": 61.7,
+          "edge": 11.7
+        }
+      },
+      "best_market": "over_under"
+    },
+    {
+      "competition": "Bundesliga",
+      "date": "2026-09-04T18:30:00Z",
+      "home_team": "VfB Stuttgart",
+      "away_team": "1. FC K\u00f6ln",
+      "home_crest": "https://crests.football-data.org/10.png",
+      "away_crest": "https://crests.football-data.org/1.png",
+      "result_probs": {
+        "home_pct": 18.0,
+        "draw_pct": 18.0,
+        "away_pct": 64.0
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Draw or 1. FC K\u00f6ln",
+          "confidence": 82.0,
+          "edge": 27.0
+        },
+        "over_under": {
+          "pick": "Over 2.5 Goals",
+          "confidence": 85.8,
+          "expected_goals": 4.81,
+          "edge": 35.8
+        },
+        "btts": {
+          "pick": "Both Teams to Score: Yes",
+          "confidence": 76.6,
+          "edge": 26.6
+        }
+      },
+      "best_market": "over_under"
+    },
+    {
+      "competition": "Bundesliga",
+      "date": "2026-09-05T13:30:00Z",
+      "home_team": "SV Werder Bremen",
+      "away_team": "RB Leipzig",
+      "home_crest": "https://crests.football-data.org/12.png",
+      "away_crest": "https://crests.football-data.org/721.png",
+      "result_probs": {
+        "home_pct": 32.5,
+        "draw_pct": 18.0,
+        "away_pct": 49.5
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Draw or RB Leipzig",
+          "confidence": 67.5,
+          "edge": 12.5
+        },
+        "over_under": {
+          "pick": "Over 2.5 Goals",
+          "confidence": 55.2,
+          "expected_goals": 2.89,
+          "edge": 5.2
+        },
+        "btts": {
+          "pick": "Both Teams to Score: Yes",
+          "confidence": 52.9,
+          "edge": 2.9
+        }
+      },
+      "best_market": "double_chance"
+    },
+    {
+      "competition": "Bundesliga",
+      "date": "2026-09-05T13:30:00Z",
+      "home_team": "TSG 1899 Hoffenheim",
+      "away_team": "Borussia Dortmund",
+      "home_crest": "https://crests.football-data.org/2.png",
+      "away_crest": "https://crests.football-data.org/4.png",
+      "result_probs": {
+        "home_pct": 19.8,
+        "draw_pct": 18.0,
+        "away_pct": 62.2
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Draw or Borussia Dortmund",
+          "confidence": 80.2,
+          "edge": 25.2
+        },
+        "over_under": {
+          "pick": "Over 2.5 Goals",
+          "confidence": 65.5,
+          "expected_goals": 3.37,
+          "edge": 15.5
+        },
+        "btts": {
+          "pick": "Both Teams to Score: Yes",
+          "confidence": 62.2,
+          "edge": 12.2
+        }
+      },
+      "best_market": "double_chance"
     }
   ]
 }
