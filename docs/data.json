@@ -1,70 +1,6 @@
 {
-  "generated_at": "2026-09-03T11:08:13.950235Z",
+  "generated_at": "2026-09-04T11:08:46.656230Z",
   "predictions": [
-    {
-      "competition": "Ligue 1",
-      "date": "2026-09-03T18:45:00Z",
-      "home_team": "Toulouse FC",
-      "away_team": "Lille OSC",
-      "home_crest": "https://crests.football-data.org/511.png",
-      "away_crest": "https://crests.football-data.org/521.png",
-      "result_probs": {
-        "home_pct": 31.5,
-        "draw_pct": 18.0,
-        "away_pct": 50.5
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Draw or Lille OSC",
-          "confidence": 68.5,
-          "edge": 13.5
-        },
-        "over_under": {
-          "pick": "Over 2.5 Goals",
-          "confidence": 58.1,
-          "expected_goals": 3.02,
-          "edge": 8.1
-        },
-        "btts": {
-          "pick": "Both Teams to Score: Yes",
-          "confidence": 58.8,
-          "edge": 8.8
-        }
-      },
-      "best_market": "double_chance"
-    },
-    {
-      "competition": "La Liga",
-      "date": "2026-09-03T19:00:00Z",
-      "home_team": "Real Sociedad de F\u00fatbol",
-      "away_team": "RC Celta de Vigo",
-      "home_crest": "https://crests.football-data.org/92.png",
-      "away_crest": "https://crests.football-data.org/558.png",
-      "result_probs": {
-        "home_pct": 55.5,
-        "draw_pct": 18.0,
-        "away_pct": 26.5
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Either Team to Win",
-          "confidence": 82.0,
-          "edge": 9.0
-        },
-        "over_under": {
-          "pick": "Under 2.5 Goals",
-          "confidence": 52.7,
-          "expected_goals": 2.57,
-          "edge": 2.7
-        },
-        "btts": {
-          "pick": "Both Teams to Score: Yes",
-          "confidence": 52.1,
-          "edge": 2.1
-        }
-      },
-      "best_market": "double_chance"
-    },
     {
       "competition": "Ligue 1",
       "date": "2026-09-04T17:00:00Z",
@@ -738,6 +674,38 @@
       "best_market": "double_chance"
     },
     {
+      "competition": "La Liga",
+      "date": "2026-09-05T14:15:00Z",
+      "home_team": "Athletic Club",
+      "away_team": "Club Atl\u00e9tico de Madrid",
+      "home_crest": "https://crests.football-data.org/77.png",
+      "away_crest": "https://crests.football-data.org/78.png",
+      "result_probs": {
+        "home_pct": 34.9,
+        "draw_pct": 18.0,
+        "away_pct": 47.1
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Draw or Club Atl\u00e9tico de Madrid",
+          "confidence": 65.1,
+          "edge": 10.1
+        },
+        "over_under": {
+          "pick": "Over 2.5 Goals",
+          "confidence": 58.1,
+          "expected_goals": 3.02,
+          "edge": 8.1
+        },
+        "btts": {
+          "pick": "Both Teams to Score: Yes",
+          "confidence": 58.8,
+          "edge": 8.8
+        }
+      },
+      "best_market": "double_chance"
+    },
+    {
       "competition": "Eredivisie",
       "date": "2026-09-05T14:30:00Z",
       "home_team": "NEC",
@@ -1088,6 +1056,38 @@
         }
       },
       "best_market": "double_chance"
+    },
+    {
+      "competition": "Ligue 1",
+      "date": "2026-09-05T18:45:00Z",
+      "home_team": "OGC Nice",
+      "away_team": "Le Mans FC",
+      "home_crest": "https://crests.football-data.org/522.png",
+      "away_crest": "https://upload.wikimedia.org/wikipedia/en/5/57/Le_Mans_FC_logo.svg",
+      "result_probs": {
+        "home_pct": 44.9,
+        "draw_pct": 19.9,
+        "away_pct": 35.2
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Either Team to Win",
+          "confidence": 80.1,
+          "edge": 7.1
+        },
+        "over_under": {
+          "pick": "Over 2.5 Goals",
+          "confidence": 58.5,
+          "expected_goals": 3.04,
+          "edge": 8.5
+        },
+        "btts": {
+          "pick": "Both Teams to Score: Yes",
+          "confidence": 60.7,
+          "edge": 10.7
+        }
+      },
+      "best_market": "btts"
     },
     {
       "competition": "La Liga",
