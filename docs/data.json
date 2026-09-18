@@ -1,70 +1,6 @@
 {
-  "generated_at": "2026-09-17T11:32:08.021592Z",
+  "generated_at": "2026-09-18T11:05:55.545203Z",
   "predictions": [
-    {
-      "competition": "La Liga",
-      "date": "2026-09-17T17:00:00Z",
-      "home_team": "Real Betis Balompi\u00e9",
-      "away_team": "Getafe CF",
-      "home_crest": "https://crests.football-data.org/90.png",
-      "away_crest": "https://crests.football-data.org/82.png",
-      "result_probs": {
-        "home_pct": 58.4,
-        "draw_pct": 18.0,
-        "away_pct": 23.6
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Either Team to Win",
-          "confidence": 82.0,
-          "edge": 9.0
-        },
-        "over_under": {
-          "pick": "Over 2.5 Goals",
-          "confidence": 52.5,
-          "expected_goals": 2.78,
-          "edge": 2.5
-        },
-        "btts": {
-          "pick": "Both Teams to Score: Yes",
-          "confidence": 55.2,
-          "edge": 5.2
-        }
-      },
-      "best_market": "double_chance"
-    },
-    {
-      "competition": "La Liga",
-      "date": "2026-09-17T19:30:00Z",
-      "home_team": "M\u00e1laga CF",
-      "away_team": "Villarreal CF",
-      "home_crest": "https://crests.football-data.org/84.png",
-      "away_crest": "https://crests.football-data.org/94.png",
-      "result_probs": {
-        "home_pct": 52.3,
-        "draw_pct": 18.0,
-        "away_pct": 29.7
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Either Team to Win",
-          "confidence": 82.0,
-          "edge": 9.0
-        },
-        "over_under": {
-          "pick": "Over 2.5 Goals",
-          "confidence": 55.4,
-          "expected_goals": 2.9,
-          "edge": 5.4
-        },
-        "btts": {
-          "pick": "Both Teams to Score: Yes",
-          "confidence": 58.6,
-          "edge": 8.6
-        }
-      },
-      "best_market": "double_chance"
-    },
     {
       "competition": "Eredivisie",
       "date": "2026-09-18T18:00:00Z",
@@ -962,6 +898,38 @@
       "best_market": "over_under"
     },
     {
+      "competition": "La Liga",
+      "date": "2026-09-19T16:30:00Z",
+      "home_team": "RC Celta de Vigo",
+      "away_team": "Real Racing Club de Santander",
+      "home_crest": "https://crests.football-data.org/558.png",
+      "away_crest": "https://crests.football-data.org/5335.png",
+      "result_probs": {
+        "home_pct": 34.0,
+        "draw_pct": 31.9,
+        "away_pct": 34.0
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Draw or Real Racing Club de Santander",
+          "confidence": 66.0,
+          "edge": 11.0
+        },
+        "over_under": {
+          "pick": "Over 2.5 Goals",
+          "confidence": 62.2,
+          "expected_goals": 3.21,
+          "edge": 12.2
+        },
+        "btts": {
+          "pick": "Both Teams to Score: Yes",
+          "confidence": 63.4,
+          "edge": 13.4
+        }
+      },
+      "best_market": "btts"
+    },
+    {
       "competition": "Eredivisie",
       "date": "2026-09-19T16:45:00Z",
       "home_team": "Sparta Rotterdam",
@@ -1184,6 +1152,38 @@
         }
       },
       "best_market": "double_chance"
+    },
+    {
+      "competition": "La Liga",
+      "date": "2026-09-19T19:00:00Z",
+      "home_team": "Sevilla FC",
+      "away_team": "FC Barcelona",
+      "home_crest": "https://crests.football-data.org/559.png",
+      "away_crest": "https://crests.football-data.org/81.png",
+      "result_probs": {
+        "home_pct": 34.9,
+        "draw_pct": 25.2,
+        "away_pct": 39.9
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Draw or FC Barcelona",
+          "confidence": 65.1,
+          "edge": 10.1
+        },
+        "over_under": {
+          "pick": "Over 2.5 Goals",
+          "confidence": 77.6,
+          "expected_goals": 4.1,
+          "edge": 27.6
+        },
+        "btts": {
+          "pick": "Both Teams to Score: Yes",
+          "confidence": 72.2,
+          "edge": 22.2
+        }
+      },
+      "best_market": "over_under"
     },
     {
       "competition": "Eredivisie",
