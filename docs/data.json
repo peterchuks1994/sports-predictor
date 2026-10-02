@@ -1,4 +1,229 @@
 {
-  "generated_at": "2026-10-01T12:51:03.678794Z",
-  "predictions": []
+  "generated_at": "2026-10-02T12:16:00.471002Z",
+  "predictions": [
+    {
+      "competition": "Primeira Liga",
+      "date": "2026-10-09T17:45:00Z",
+      "home_team": "Moreirense FC",
+      "away_team": "Gil Vicente FC",
+      "home_crest": "https://crests.football-data.org/583.png",
+      "away_crest": "https://crests.football-data.org/5533.png",
+      "result_probs": {
+        "home_pct": 50.4,
+        "draw_pct": 18.0,
+        "away_pct": 31.6
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Either Team to Win",
+          "confidence": 82.0,
+          "edge": 9.0
+        },
+        "over_under": {
+          "pick": "Under 2.5 Goals",
+          "confidence": 53.4,
+          "expected_goals": 2.54,
+          "edge": 3.4
+        },
+        "btts": {
+          "pick": "Both Teams to Score: Yes",
+          "confidence": 51.7,
+          "edge": 1.7
+        }
+      },
+      "best_market": "double_chance"
+    },
+    {
+      "competition": "Eredivisie",
+      "date": "2026-10-09T18:00:00Z",
+      "home_team": "PSV",
+      "away_team": "SC Heerenveen",
+      "home_crest": "https://crests.football-data.org/674.png",
+      "away_crest": "https://crests.football-data.org/673.png",
+      "result_probs": {
+        "home_pct": 56.6,
+        "draw_pct": 18.0,
+        "away_pct": 25.4
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Either Team to Win",
+          "confidence": 82.0,
+          "edge": 9.0
+        },
+        "over_under": {
+          "pick": "Over 2.5 Goals",
+          "confidence": 71.0,
+          "expected_goals": 3.67,
+          "edge": 21.0
+        },
+        "btts": {
+          "pick": "Both Teams to Score: Yes",
+          "confidence": 68.3,
+          "edge": 18.3
+        }
+      },
+      "best_market": "over_under"
+    },
+    {
+      "competition": "Bundesliga",
+      "date": "2026-10-09T18:30:00Z",
+      "home_team": "Borussia Dortmund",
+      "away_team": "SV Werder Bremen",
+      "home_crest": "https://crests.football-data.org/4.png",
+      "away_crest": "https://crests.football-data.org/12.png",
+      "result_probs": {
+        "home_pct": 55.7,
+        "draw_pct": 18.0,
+        "away_pct": 26.3
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Either Team to Win",
+          "confidence": 82.0,
+          "edge": 9.0
+        },
+        "over_under": {
+          "pick": "Over 2.5 Goals",
+          "confidence": 68.4,
+          "expected_goals": 3.52,
+          "edge": 18.4
+        },
+        "btts": {
+          "pick": "Both Teams to Score: Yes",
+          "confidence": 66.1,
+          "edge": 16.1
+        }
+      },
+      "best_market": "over_under"
+    },
+    {
+      "competition": "Ligue 1",
+      "date": "2026-10-09T18:45:00Z",
+      "home_team": "Racing Club de Lens",
+      "away_team": "Olympique Lyonnais",
+      "home_crest": "https://crests.football-data.org/546.png",
+      "away_crest": "https://crests.football-data.org/523.png",
+      "result_probs": {
+        "home_pct": 32.6,
+        "draw_pct": 18.0,
+        "away_pct": 49.4
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Draw or Olympique Lyonnais",
+          "confidence": 67.4,
+          "edge": 12.4
+        },
+        "over_under": {
+          "pick": "Over 2.5 Goals",
+          "confidence": 54.8,
+          "expected_goals": 2.87,
+          "edge": 4.8
+        },
+        "btts": {
+          "pick": "Both Teams to Score: Yes",
+          "confidence": 56.0,
+          "edge": 6.0
+        }
+      },
+      "best_market": "double_chance"
+    },
+    {
+      "competition": "La Liga",
+      "date": "2026-10-09T19:00:00Z",
+      "home_team": "M\u00e1laga CF",
+      "away_team": "RCD Espanyol de Barcelona",
+      "home_crest": "https://crests.football-data.org/84.png",
+      "away_crest": "https://crests.football-data.org/80.png",
+      "result_probs": {
+        "home_pct": 34.8,
+        "draw_pct": 25.6,
+        "away_pct": 39.6
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Draw or RCD Espanyol de Barcelona",
+          "confidence": 65.2,
+          "edge": 10.2
+        },
+        "over_under": {
+          "pick": "Under 2.5 Goals",
+          "confidence": 50.1,
+          "expected_goals": 2.67,
+          "edge": 0.1
+        },
+        "btts": {
+          "pick": "Both Teams to Score: Yes",
+          "confidence": 53.9,
+          "edge": 3.9
+        }
+      },
+      "best_market": "double_chance"
+    },
+    {
+      "competition": "Championship",
+      "date": "2026-10-09T19:00:00Z",
+      "home_team": "West Ham United FC",
+      "away_team": "Queens Park Rangers FC",
+      "home_crest": "https://crests.football-data.org/563.png",
+      "away_crest": "https://crests.football-data.org/69.png",
+      "result_probs": {
+        "home_pct": 58.6,
+        "draw_pct": 18.0,
+        "away_pct": 23.4
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Either Team to Win",
+          "confidence": 82.0,
+          "edge": 9.0
+        },
+        "over_under": {
+          "pick": "Over 2.5 Goals",
+          "confidence": 65.9,
+          "expected_goals": 3.39,
+          "edge": 15.9
+        },
+        "btts": {
+          "pick": "Both Teams to Score: Yes",
+          "confidence": 61.6,
+          "edge": 11.6
+        }
+      },
+      "best_market": "over_under"
+    },
+    {
+      "competition": "Primeira Liga",
+      "date": "2026-10-09T19:15:00Z",
+      "home_team": "Sporting Clube de Braga",
+      "away_team": "Sporting Clube de Portugal",
+      "home_crest": "https://crests.football-data.org/5613.png",
+      "away_crest": "https://crests.football-data.org/498.png",
+      "result_probs": {
+        "home_pct": 41.3,
+        "draw_pct": 23.7,
+        "away_pct": 35.0
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Draw or Sporting Clube de Portugal",
+          "confidence": 58.7,
+          "edge": 3.7
+        },
+        "over_under": {
+          "pick": "Under 2.5 Goals",
+          "confidence": 52.0,
+          "expected_goals": 2.59,
+          "edge": 2.0
+        },
+        "btts": {
+          "pick": "Both Teams to Score: Yes",
+          "confidence": 52.1,
+          "edge": 2.1
+        }
+      },
+      "best_market": "double_chance"
+    }
+  ]
 }
