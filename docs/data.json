@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T11:34:09.688165Z",
+  "generated_at": "2026-10-04T12:15:33.937461Z",
   "predictions": [
     {
       "competition": "Primeira Liga",
@@ -1213,6 +1213,70 @@
           "pick": "Both Teams to Score: No",
           "confidence": 51.6,
           "edge": 1.6
+        }
+      },
+      "best_market": "double_chance"
+    },
+    {
+      "competition": "Serie A",
+      "date": "2026-10-11T10:30:00Z",
+      "home_team": "Como 1907",
+      "away_team": "AS Roma",
+      "home_crest": "https://crests.football-data.org/7397.png",
+      "away_crest": "https://crests.football-data.org/100.png",
+      "result_probs": {
+        "home_pct": 48.0,
+        "draw_pct": 18.0,
+        "away_pct": 34.0
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Either Team to Win",
+          "confidence": 82.0,
+          "edge": 9.0
+        },
+        "over_under": {
+          "pick": "Over 2.5 Goals",
+          "confidence": 63.5,
+          "expected_goals": 3.27,
+          "edge": 13.5
+        },
+        "btts": {
+          "pick": "Both Teams to Score: Yes",
+          "confidence": 64.8,
+          "edge": 14.8
+        }
+      },
+      "best_market": "btts"
+    },
+    {
+      "competition": "Serie A",
+      "date": "2026-10-11T13:00:00Z",
+      "home_team": "US Lecce",
+      "away_team": "Bologna FC 1909",
+      "home_crest": "https://crests.football-data.org/5890.png",
+      "away_crest": "https://crests.football-data.org/103.png",
+      "result_probs": {
+        "home_pct": 55.6,
+        "draw_pct": 18.0,
+        "away_pct": 26.4
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Either Team to Win",
+          "confidence": 82.0,
+          "edge": 9.0
+        },
+        "over_under": {
+          "pick": "Under 2.5 Goals",
+          "confidence": 51.7,
+          "expected_goals": 2.61,
+          "edge": 1.7
+        },
+        "btts": {
+          "pick": "Both Teams to Score: Yes",
+          "confidence": 53.1,
+          "edge": 3.1
         }
       },
       "best_market": "double_chance"
