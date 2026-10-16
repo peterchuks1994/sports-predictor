@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T11:19:36.009868Z",
+  "generated_at": "2026-10-16T11:14:30.453280Z",
   "predictions": [
     {
       "competition": "Eredivisie",
@@ -1152,6 +1152,38 @@
         }
       },
       "best_market": "over_under"
+    },
+    {
+      "competition": "Primeira Liga",
+      "date": "2026-10-23T19:45:00Z",
+      "home_team": "Vit\u00f3ria SC",
+      "away_team": "CS Mar\u00edtimo",
+      "home_crest": "https://crests.football-data.org/5543.png",
+      "away_crest": "https://crests.football-data.org/5575.png",
+      "result_probs": {
+        "home_pct": 52.9,
+        "draw_pct": 18.0,
+        "away_pct": 29.1
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Either Team to Win",
+          "confidence": 82.0,
+          "edge": 9.0
+        },
+        "over_under": {
+          "pick": "Under 2.5 Goals",
+          "confidence": 53.1,
+          "expected_goals": 2.55,
+          "edge": 3.1
+        },
+        "btts": {
+          "pick": "Both Teams to Score: Yes",
+          "confidence": 51.1,
+          "edge": 1.1
+        }
+      },
+      "best_market": "double_chance"
     }
   ]
 }
