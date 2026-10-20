@@ -1,166 +1,6 @@
 {
-  "generated_at": "2026-10-19T12:52:44.796696Z",
+  "generated_at": "2026-10-20T11:24:15.637448Z",
   "predictions": [
-    {
-      "competition": "Serie A",
-      "date": "2026-10-19T16:30:00Z",
-      "home_team": "AC Monza",
-      "away_team": "Cagliari Calcio",
-      "home_crest": "https://crests.football-data.org/5911.png",
-      "away_crest": "https://crests.football-data.org/104.png",
-      "result_probs": {
-        "home_pct": 34.8,
-        "draw_pct": 18.0,
-        "away_pct": 47.2
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Draw or Cagliari Calcio",
-          "confidence": 65.2,
-          "edge": 10.2
-        },
-        "over_under": {
-          "pick": "Over 2.5 Goals",
-          "confidence": 53.5,
-          "expected_goals": 2.82,
-          "edge": 3.5
-        },
-        "btts": {
-          "pick": "Both Teams to Score: Yes",
-          "confidence": 56.8,
-          "edge": 6.8
-        }
-      },
-      "best_market": "double_chance"
-    },
-    {
-      "competition": "Serie A",
-      "date": "2026-10-19T18:45:00Z",
-      "home_team": "Parma Calcio 1913",
-      "away_team": "Torino FC",
-      "home_crest": "https://crests.football-data.org/112.png",
-      "away_crest": "https://crests.football-data.org/586.png",
-      "result_probs": {
-        "home_pct": 34.6,
-        "draw_pct": 27.6,
-        "away_pct": 37.8
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Draw or Torino FC",
-          "confidence": 65.4,
-          "edge": 10.4
-        },
-        "over_under": {
-          "pick": "Over 2.5 Goals",
-          "confidence": 51.8,
-          "expected_goals": 2.75,
-          "edge": 1.8
-        },
-        "btts": {
-          "pick": "Both Teams to Score: Yes",
-          "confidence": 55.6,
-          "edge": 5.6
-        }
-      },
-      "best_market": "double_chance"
-    },
-    {
-      "competition": "Premier League",
-      "date": "2026-10-19T19:00:00Z",
-      "home_team": "Tottenham Hotspur FC",
-      "away_team": "Coventry City FC",
-      "home_crest": "https://crests.football-data.org/73.png",
-      "away_crest": "https://crests.football-data.org/1076.png",
-      "result_probs": {
-        "home_pct": 34.3,
-        "draw_pct": 30.0,
-        "away_pct": 35.7
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Draw or Coventry City FC",
-          "confidence": 65.7,
-          "edge": 10.7
-        },
-        "over_under": {
-          "pick": "Under 2.5 Goals",
-          "confidence": 55.2,
-          "expected_goals": 2.47,
-          "edge": 5.2
-        },
-        "btts": {
-          "pick": "Both Teams to Score: Yes",
-          "confidence": 50.1,
-          "edge": 0.1
-        }
-      },
-      "best_market": "double_chance"
-    },
-    {
-      "competition": "La Liga",
-      "date": "2026-10-19T19:00:00Z",
-      "home_team": "Getafe CF",
-      "away_team": "Rayo Vallecano de Madrid",
-      "home_crest": "https://crests.football-data.org/82.png",
-      "away_crest": "https://crests.football-data.org/87.png",
-      "result_probs": {
-        "home_pct": 39.4,
-        "draw_pct": 25.8,
-        "away_pct": 34.8
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Draw or Rayo Vallecano de Madrid",
-          "confidence": 60.6,
-          "edge": 5.6
-        },
-        "over_under": {
-          "pick": "Over 2.5 Goals",
-          "confidence": 60.6,
-          "expected_goals": 3.13,
-          "edge": 10.6
-        },
-        "btts": {
-          "pick": "Both Teams to Score: Yes",
-          "confidence": 62.3,
-          "edge": 12.3
-        }
-      },
-      "best_market": "btts"
-    },
-    {
-      "competition": "Primeira Liga",
-      "date": "2026-10-19T19:15:00Z",
-      "home_team": "Sporting Clube de Braga",
-      "away_team": "Gil Vicente FC",
-      "home_crest": "https://crests.football-data.org/5613.png",
-      "away_crest": "https://crests.football-data.org/5533.png",
-      "result_probs": {
-        "home_pct": 51.2,
-        "draw_pct": 18.0,
-        "away_pct": 30.8
-      },
-      "markets": {
-        "double_chance": {
-          "pick": "Either Team to Win",
-          "confidence": 82.0,
-          "edge": 9.0
-        },
-        "over_under": {
-          "pick": "Under 2.5 Goals",
-          "confidence": 60.9,
-          "expected_goals": 2.25,
-          "edge": 10.9
-        },
-        "btts": {
-          "pick": "Both Teams to Score: No",
-          "confidence": 54.6,
-          "edge": 4.6
-        }
-      },
-      "best_market": "over_under"
-    },
     {
       "competition": "Championship",
       "date": "2026-10-20T18:45:00Z",
@@ -297,9 +137,9 @@
       "home_crest": "https://crests.football-data.org/586.png",
       "away_crest": "https://crests.football-data.org/5911.png",
       "result_probs": {
-        "home_pct": 53.7,
+        "home_pct": 51.6,
         "draw_pct": 18.0,
-        "away_pct": 28.3
+        "away_pct": 30.4
       },
       "markets": {
         "double_chance": {
@@ -309,14 +149,14 @@
         },
         "over_under": {
           "pick": "Over 2.5 Goals",
-          "confidence": 62.2,
-          "expected_goals": 3.21,
-          "edge": 12.2
+          "confidence": 60.6,
+          "expected_goals": 3.13,
+          "edge": 10.6
         },
         "btts": {
           "pick": "Both Teams to Score: Yes",
-          "confidence": 63.4,
-          "edge": 13.4
+          "confidence": 62.3,
+          "edge": 12.3
         }
       },
       "best_market": "btts"
@@ -617,9 +457,9 @@
       "home_crest": "https://crests.football-data.org/87.png",
       "away_crest": "https://crests.football-data.org/285.png",
       "result_probs": {
-        "home_pct": 47.1,
+        "home_pct": 49.8,
         "draw_pct": 18.0,
-        "away_pct": 34.9
+        "away_pct": 32.2
       },
       "markets": {
         "double_chance": {
@@ -629,17 +469,17 @@
         },
         "over_under": {
           "pick": "Over 2.5 Goals",
-          "confidence": 63.2,
-          "expected_goals": 3.26,
-          "edge": 13.2
+          "confidence": 55.4,
+          "expected_goals": 2.9,
+          "edge": 5.4
         },
         "btts": {
           "pick": "Both Teams to Score: Yes",
-          "confidence": 64.4,
-          "edge": 14.4
+          "confidence": 58.6,
+          "edge": 8.6
         }
       },
-      "best_market": "btts"
+      "best_market": "double_chance"
     },
     {
       "competition": "Serie A",
@@ -649,9 +489,9 @@
       "home_crest": "https://crests.football-data.org/104.png",
       "away_crest": "https://crests.football-data.org/103.png",
       "result_probs": {
-        "home_pct": 56.1,
+        "home_pct": 55.4,
         "draw_pct": 18.0,
-        "away_pct": 25.9
+        "away_pct": 26.6
       },
       "markets": {
         "double_chance": {
@@ -660,15 +500,15 @@
           "edge": 9.0
         },
         "over_under": {
-          "pick": "Under 2.5 Goals",
-          "confidence": 54.9,
-          "expected_goals": 2.48,
-          "edge": 4.9
+          "pick": "Over 2.5 Goals",
+          "confidence": 50.4,
+          "expected_goals": 2.69,
+          "edge": 0.4
         },
         "btts": {
-          "pick": "Both Teams to Score: No",
-          "confidence": 50.7,
-          "edge": 0.7
+          "pick": "Both Teams to Score: Yes",
+          "confidence": 54.4,
+          "edge": 4.4
         }
       },
       "best_market": "double_chance"
@@ -873,9 +713,9 @@
       "home_crest": "https://crests.football-data.org/1076.png",
       "away_crest": "https://crests.football-data.org/63.png",
       "result_probs": {
-        "home_pct": 48.3,
+        "home_pct": 47.9,
         "draw_pct": 18.0,
-        "away_pct": 33.7
+        "away_pct": 34.1
       },
       "markets": {
         "double_chance": {
@@ -884,15 +724,15 @@
           "edge": 9.0
         },
         "over_under": {
-          "pick": "Under 2.5 Goals",
-          "confidence": 51.7,
-          "expected_goals": 2.61,
-          "edge": 1.7
+          "pick": "Over 2.5 Goals",
+          "confidence": 53.6,
+          "expected_goals": 2.82,
+          "edge": 3.6
         },
         "btts": {
           "pick": "Both Teams to Score: Yes",
-          "confidence": 53.1,
-          "edge": 3.1
+          "confidence": 57.2,
+          "edge": 7.2
         }
       },
       "best_market": "double_chance"
@@ -1026,6 +866,102 @@
       "best_market": "double_chance"
     },
     {
+      "competition": "Serie A",
+      "date": "2026-10-24T16:00:00Z",
+      "home_team": "SSC Napoli",
+      "away_team": "AS Roma",
+      "home_crest": "https://crests.football-data.org/113.png",
+      "away_crest": "https://crests.football-data.org/100.png",
+      "result_probs": {
+        "home_pct": 42.5,
+        "draw_pct": 22.5,
+        "away_pct": 35.1
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Either Team to Win",
+          "confidence": 77.5,
+          "edge": 4.5
+        },
+        "over_under": {
+          "pick": "Over 2.5 Goals",
+          "confidence": 52.0,
+          "expected_goals": 2.75,
+          "edge": 2.0
+        },
+        "btts": {
+          "pick": "Both Teams to Score: Yes",
+          "confidence": 55.9,
+          "edge": 5.9
+        }
+      },
+      "best_market": "btts"
+    },
+    {
+      "competition": "Premier League",
+      "date": "2026-10-24T16:30:00Z",
+      "home_team": "Chelsea FC",
+      "away_team": "Tottenham Hotspur FC",
+      "home_crest": "https://crests.football-data.org/61.png",
+      "away_crest": "https://crests.football-data.org/73.png",
+      "result_probs": {
+        "home_pct": 49.1,
+        "draw_pct": 18.0,
+        "away_pct": 32.9
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Either Team to Win",
+          "confidence": 82.0,
+          "edge": 9.0
+        },
+        "over_under": {
+          "pick": "Over 2.5 Goals",
+          "confidence": 57.4,
+          "expected_goals": 2.99,
+          "edge": 7.4
+        },
+        "btts": {
+          "pick": "Both Teams to Score: Yes",
+          "confidence": 59.8,
+          "edge": 9.8
+        }
+      },
+      "best_market": "btts"
+    },
+    {
+      "competition": "La Liga",
+      "date": "2026-10-24T16:30:00Z",
+      "home_team": "Valencia CF",
+      "away_team": "Villarreal CF",
+      "home_crest": "https://crests.football-data.org/95.png",
+      "away_crest": "https://crests.football-data.org/94.png",
+      "result_probs": {
+        "home_pct": 35.1,
+        "draw_pct": 22.5,
+        "away_pct": 42.4
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Draw or Villarreal CF",
+          "confidence": 64.9,
+          "edge": 9.9
+        },
+        "over_under": {
+          "pick": "Under 2.5 Goals",
+          "confidence": 52.0,
+          "expected_goals": 2.59,
+          "edge": 2.0
+        },
+        "btts": {
+          "pick": "Both Teams to Score: Yes",
+          "confidence": 52.1,
+          "edge": 2.1
+        }
+      },
+      "best_market": "double_chance"
+    },
+    {
       "competition": "Eredivisie",
       "date": "2026-10-24T16:45:00Z",
       "home_team": "Willem II Tilburg",
@@ -1088,6 +1024,38 @@
         }
       },
       "best_market": "double_chance"
+    },
+    {
+      "competition": "Serie A",
+      "date": "2026-10-24T18:45:00Z",
+      "home_team": "SS Lazio",
+      "away_team": "Parma Calcio 1913",
+      "home_crest": "https://crests.football-data.org/110.png",
+      "away_crest": "https://crests.football-data.org/112.png",
+      "result_probs": {
+        "home_pct": 63.3,
+        "draw_pct": 18.0,
+        "away_pct": 18.7
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "SS Lazio or Draw",
+          "confidence": 81.3,
+          "edge": 9.3
+        },
+        "over_under": {
+          "pick": "Over 2.5 Goals",
+          "confidence": 60.0,
+          "expected_goals": 3.1,
+          "edge": 10.0
+        },
+        "btts": {
+          "pick": "Both Teams to Score: Yes",
+          "confidence": 54.6,
+          "edge": 4.6
+        }
+      },
+      "best_market": "over_under"
     },
     {
       "competition": "Ligue 1",
@@ -1161,29 +1129,29 @@
       "home_crest": "https://crests.football-data.org/5533.png",
       "away_crest": "https://crests.football-data.org/503.png",
       "result_probs": {
-        "home_pct": 34.8,
-        "draw_pct": 26.0,
-        "away_pct": 39.2
+        "home_pct": 37.8,
+        "draw_pct": 27.6,
+        "away_pct": 34.6
       },
       "markets": {
         "double_chance": {
           "pick": "Draw or FC Porto",
-          "confidence": 65.2,
-          "edge": 10.2
+          "confidence": 62.2,
+          "edge": 7.2
         },
         "over_under": {
           "pick": "Over 2.5 Goals",
-          "confidence": 53.5,
-          "expected_goals": 2.82,
-          "edge": 3.5
+          "confidence": 58.6,
+          "expected_goals": 3.04,
+          "edge": 8.6
         },
         "btts": {
           "pick": "Both Teams to Score: Yes",
-          "confidence": 56.8,
-          "edge": 6.8
+          "confidence": 60.9,
+          "edge": 10.9
         }
       },
-      "best_market": "double_chance"
+      "best_market": "btts"
     },
     {
       "competition": "Eredivisie",
@@ -1245,6 +1213,38 @@
           "pick": "Both Teams to Score: Yes",
           "confidence": 52.8,
           "edge": 2.8
+        }
+      },
+      "best_market": "double_chance"
+    },
+    {
+      "competition": "Primeira Liga",
+      "date": "2026-10-25T15:30:00Z",
+      "home_team": "GD Estoril Praia",
+      "away_team": "Moreirense FC",
+      "home_crest": "https://crests.football-data.org/582.png",
+      "away_crest": "https://crests.football-data.org/583.png",
+      "result_probs": {
+        "home_pct": 34.9,
+        "draw_pct": 24.2,
+        "away_pct": 40.8
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Draw or Moreirense FC",
+          "confidence": 65.1,
+          "edge": 10.1
+        },
+        "over_under": {
+          "pick": "Under 2.5 Goals",
+          "confidence": 51.5,
+          "expected_goals": 2.61,
+          "edge": 1.5
+        },
+        "btts": {
+          "pick": "Both Teams to Score: Yes",
+          "confidence": 53.1,
+          "edge": 3.1
         }
       },
       "best_market": "double_chance"
