@@ -1,4 +1,101 @@
 {
-  "generated_at": "2026-11-12T14:55:59.523199Z",
-  "predictions": []
+  "generated_at": "2026-11-13T14:21:50.201827Z",
+  "predictions": [
+    {
+      "competition": "Bundesliga",
+      "date": "2026-11-20T19:30:00Z",
+      "home_team": "FC Bayern M\u00fcnchen",
+      "away_team": "1. FC K\u00f6ln",
+      "home_crest": "https://crests.football-data.org/5.png",
+      "away_crest": "https://crests.football-data.org/1.png",
+      "result_probs": {
+        "home_pct": 57.5,
+        "draw_pct": 18.0,
+        "away_pct": 24.5
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Either Team to Win",
+          "confidence": 82.0,
+          "edge": 9.0
+        },
+        "over_under": {
+          "pick": "Over 2.5 Goals",
+          "confidence": 52.6,
+          "expected_goals": 2.78,
+          "edge": 2.6
+        },
+        "btts": {
+          "pick": "Both Teams to Score: Yes",
+          "confidence": 54.4,
+          "edge": 4.4
+        }
+      },
+      "best_market": "double_chance"
+    },
+    {
+      "competition": "Ligue 1",
+      "date": "2026-11-20T19:45:00Z",
+      "home_team": "ES Troyes AC",
+      "away_team": "Le Havre AC",
+      "home_crest": "https://crests.football-data.org/531.png",
+      "away_crest": "https://crests.football-data.org/533.png",
+      "result_probs": {
+        "home_pct": 64.8,
+        "draw_pct": 18.0,
+        "away_pct": 17.2
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "ES Troyes AC or Draw",
+          "confidence": 82.8,
+          "edge": 10.8
+        },
+        "over_under": {
+          "pick": "Over 2.5 Goals",
+          "confidence": 57.8,
+          "expected_goals": 3.01,
+          "edge": 7.8
+        },
+        "btts": {
+          "pick": "Both Teams to Score: Yes",
+          "confidence": 58.0,
+          "edge": 8.0
+        }
+      },
+      "best_market": "double_chance"
+    },
+    {
+      "competition": "La Liga",
+      "date": "2026-11-20T20:00:00Z",
+      "home_team": "Athletic Club",
+      "away_team": "RCD Espanyol de Barcelona",
+      "home_crest": "https://crests.football-data.org/77.png",
+      "away_crest": "https://crests.football-data.org/80.png",
+      "result_probs": {
+        "home_pct": 53.5,
+        "draw_pct": 18.0,
+        "away_pct": 28.5
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Either Team to Win",
+          "confidence": 82.0,
+          "edge": 9.0
+        },
+        "over_under": {
+          "pick": "Under 2.5 Goals",
+          "confidence": 58.7,
+          "expected_goals": 2.33,
+          "edge": 8.7
+        },
+        "btts": {
+          "pick": "Both Teams to Score: No",
+          "confidence": 53.8,
+          "edge": 3.8
+        }
+      },
+      "best_market": "double_chance"
+    }
+  ]
 }
