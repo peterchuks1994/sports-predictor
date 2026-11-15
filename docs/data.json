@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T13:24:55.850551Z",
+  "generated_at": "2026-11-15T13:53:26.653308Z",
   "predictions": [
     {
       "competition": "Bundesliga",
@@ -1088,6 +1088,38 @@
         }
       },
       "best_market": "over_under"
+    },
+    {
+      "competition": "Serie A",
+      "date": "2026-11-22T11:30:00Z",
+      "home_team": "Juventus FC",
+      "away_team": "Venezia FC",
+      "home_crest": "https://crests.football-data.org/109.png",
+      "away_crest": "https://crests.football-data.org/454.png",
+      "result_probs": {
+        "home_pct": 49.2,
+        "draw_pct": 18.0,
+        "away_pct": 32.8
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Either Team to Win",
+          "confidence": 82.0,
+          "edge": 9.0
+        },
+        "over_under": {
+          "pick": "Under 2.5 Goals",
+          "confidence": 57.0,
+          "expected_goals": 2.4,
+          "edge": 7.0
+        },
+        "btts": {
+          "pick": "Both Teams to Score: No",
+          "confidence": 51.5,
+          "edge": 1.5
+        }
+      },
+      "best_market": "double_chance"
     }
   ]
 }
