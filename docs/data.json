@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T15:39:55.931214Z",
+  "generated_at": "2026-11-20T15:19:11.277098Z",
   "predictions": [
     {
       "competition": "Bundesliga",
@@ -1117,6 +1117,38 @@
           "pick": "Both Teams to Score: No",
           "confidence": 51.5,
           "edge": 1.5
+        }
+      },
+      "best_market": "double_chance"
+    },
+    {
+      "competition": "Primeira Liga",
+      "date": "2026-11-27T20:15:00Z",
+      "home_team": "CS Mar\u00edtimo",
+      "away_team": "CD Nacional",
+      "home_crest": "https://crests.football-data.org/5575.png",
+      "away_crest": "https://crests.football-data.org/5529.png",
+      "result_probs": {
+        "home_pct": 28.4,
+        "draw_pct": 18.0,
+        "away_pct": 53.6
+      },
+      "markets": {
+        "double_chance": {
+          "pick": "Draw or CD Nacional",
+          "confidence": 71.6,
+          "edge": 16.6
+        },
+        "over_under": {
+          "pick": "Over 2.5 Goals",
+          "confidence": 55.1,
+          "expected_goals": 2.89,
+          "edge": 5.1
+        },
+        "btts": {
+          "pick": "Both Teams to Score: Yes",
+          "confidence": 57.8,
+          "edge": 7.8
         }
       },
       "best_market": "double_chance"
